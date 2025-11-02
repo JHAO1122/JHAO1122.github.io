@@ -20,12 +20,12 @@ Work experience
   
 Skills
 ======
-* Skill Soild fundation in mathematics and statistics.
-* Skill Programming skills 
-  * Sub-skill Familiar with Linux system programming
-  * Sub-skill Familiar with Python C C++ Matlab and R programming.
-  * Sub-skill Familiar with Latex and Markdown.
-* Skill Good English communication skills.
+* Soild fundation in mathematics and statistics.
+* Programming skills 
+  * Familiar with Linux system programming
+  * Familiar with Python C C++ Matlab and R programming.
+  * Familiar with Latex and Markdown.
+* Good English communication skills.
 
 Publications
 ======
@@ -47,4 +47,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* None
