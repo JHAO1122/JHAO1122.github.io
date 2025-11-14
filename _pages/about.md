@@ -33,5 +33,5 @@ News and Honors
 Connection
 ====
 
-If you want to contact me, please send your email to email address: 3230105412@zju.edu.cn/jhtian1122@outlook.com/jiahaot1122@gmail.com
+My email address is: 3230105412@zju.edu.cn/jhtian1122@outlook.com/jiahaot1122@gmail.com
 

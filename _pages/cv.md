@@ -13,10 +13,7 @@ Education
 ======
 
 * B.S. in Statistics, Zhejiang University, from 2023 to 2027 (expected)
-
-Work experience
-======
-* None
+* GPA: 3.95/4.30 (87.9/100)
   
 Skills
 ======
@@ -44,7 +41,4 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* None
+
