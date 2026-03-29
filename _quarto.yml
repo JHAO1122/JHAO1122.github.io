@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "assets/"  # 这一行告诉 Quarto：每次 render 时，把 assets 文件夹完整搬进 docs
+
 
 website:
   title: "Jiahao's Space"
@@ -11,3 +14,4 @@ website:
         text: Home
       - text: "Academic Notes"
         href: https://jhao1122.github.io/Notes/
+
