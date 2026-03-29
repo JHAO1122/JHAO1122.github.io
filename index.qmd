@@ -2,7 +2,7 @@
 title: "Jiahao Tian (Tommy)"
 about:
   template: trestles
-  
+  image: profile.jpg  # 确保你的头像文件名为 profile.jpg 放在同一目录下
   links:
     - icon: envelope
       text: Email
