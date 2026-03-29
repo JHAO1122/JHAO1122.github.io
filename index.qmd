@@ -1,0 +1,63 @@
+---
+title: "Jiahao Tian (Tommy)"
+about:
+  template: trestles
+  
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:3230105412@zju.edu.cn
+    - icon: github
+      text: Github
+      href: https://github.com/jhao1122
+    - icon: file-pdf
+      text: CV
+      href: assets/Curriculum_Vitae.pdf
+---
+
+## 👋 Welcome!
+
+My name is **Jiahao Tian** (Tommy). I am a third-year undergraduate student at the [School of Mathematical Sciences](http://www.math.zju.edu.cn), **Zhejiang University (ZJU)**, majoring in Statistics.
+
+I am passionate about exploring the intersection of rigorous mathematical theory and stochastic data. My research journey is currently focused on Statistical Inference and its diverse applications.
+
+---
+
+## 🔍 Research Interests
+
+* **Core:** Statistical Inference, Causal Inference, Machine Learning, Biostatistics.
+* **Extended:** Bayesian Statistics, Stochastic Analysis, Quantitative Finance.
+
+---
+
+## 🛰️ Research Experience
+
+### **Knockoff Method & FDR Control**
+* **Advisor:** [Prof. Lijun Wang](https://hohoweiya.xyz/), School of Mathematical Sciences, ZJU.
+* Currently conducting research on statistical inference, specifically focusing on the **Knockoff method** for controlling the False Discovery Rate (FDR). 
+* Active member of the weekly lab meetings (Thursdays) discussing recent research progress and the *Elements of Statistical Learning (ESL)*.
+
+### **Multimodal Learning & Causal Inference (SRTP)**
+* **Advisor:** [Prof. Xiaoye Miao](https://person.zju.edu.cn/miaoxy_cn) (via PhD Mentor), ZJU.
+* Working on an SRTP project focused on **Multimodal Learning**, Causal Inference, and **Missing Data Imputation**. 
+
+---
+
+## 🏆 News and Honors
+
+* **Oct 2025:** 🥈 Honored with the **Second Prize Scholarship** from Zhejiang University.
+* **Oct 2024:** 🥉 Honored with the **Third Prize Scholarship** from Zhejiang University.
+
+---
+
+## 📚 Academic Garden
+Beyond my research projects, I maintain a detailed collection of course notes and mathematical derivations (e.g., Stochastic Differential Equations, Asymptotic Statistics).
+
+* Visit my [**Academic Notes →**](https://jhao1122.github.io/Notes/)
+
+---
+
+## 📮 Connection
+I am always open to academic discussions and collaborations. Feel free to reach out via:
+* Primary: [3230105412@zju.edu.cn](mailto:3230105412@zju.edu.cn)
+* Alternative: [jhtian1122@outlook.com](mailto:jhtian1122@outlook.com) / [jiahaot1122@gmail.com](mailto:jiahaot1122@gmail.com)

@@ -1,0 +1,13 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jiahao's Space"
+  google-analytics: "G-MPD6ZGWYW1"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Academic Notes"
+        href: https://jhao1122.github.io/Notes/
