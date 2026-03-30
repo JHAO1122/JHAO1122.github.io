@@ -1,0 +1,13 @@
+/*-- scss:defaults --*/
+// 定义求是蓝核心配色
+$zju-blue: #003d7c;
+$link-color: $zju-blue;
+$navbar-bg: #ffffff;
+$navbar-fg: $zju-blue;
+
+/*-- scss:rules --*/
+// 标题加粗并统一配色
+h1, h2, h3 {
+  color: $zju-blue;
+  font-weight: 700;
+}

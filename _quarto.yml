@@ -17,3 +17,15 @@ website:
         text: Teaching
       - href: https://jhao1122.github.io/Notes/
         text: "Academic Notes"
+  page-footer:
+    left: "© 2026 Jiahao Tian"
+    right: "Força Barça! 🔵🔴"
+
+format:
+  html:
+    theme: 
+      - cosmo         
+      - custom.scss   
+    toc: true         
+    number-sections: false
+
