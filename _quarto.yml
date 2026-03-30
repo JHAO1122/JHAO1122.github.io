@@ -2,8 +2,7 @@ project:
   type: website
   output-dir: docs
   resources:
-    - "assets/"  # 这一行告诉 Quarto：每次 render 时，把 assets 文件夹完整搬进 docs
-
+    - "assets/"
 
 website:
   title: "Jiahao's Space"
@@ -12,6 +11,9 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: "Academic Notes"
-        href: https://jhao1122.github.io/Notes/
-
+      - href: Projects/index.qmd
+        text: Projects
+      - href: Teaching/index.qmd
+        text: Teaching
+      - href: https://jhao1122.github.io/Notes/
+        text: "Academic Notes"
