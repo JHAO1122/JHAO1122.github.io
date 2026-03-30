@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "Teaching/index.html",
+    "href": "Teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "[cite_start]Expected Sept. 2026 – Jan. 2027 [cite: 1]\n\n[cite_start]Affiliation: School of Mathematical Sciences, Zhejiang University. [cite: 1]\nRole: Will be responsible for conducting exercise sessions, grading assignments, and holding office hours for undergraduate students."
+  },
+  {
+    "objectID": "Teaching/index.html#zhejiang-university",
+    "href": "Teaching/index.html#zhejiang-university",
+    "title": "Teaching",
+    "section": "",
+    "text": "[cite_start]Expected Sept. 2026 – Jan. 2027 [cite: 1]\n\n[cite_start]Affiliation: School of Mathematical Sciences, Zhejiang University. [cite: 1]\nRole: Will be responsible for conducting exercise sessions, grading assignments, and holding office hours for undergraduate students."
+  },
+  {
+    "objectID": "Teaching/index.html#seminars-presentations",
+    "href": "Teaching/index.html#seminars-presentations",
+    "title": "Teaching",
+    "section": "📚 Seminars & Presentations",
+    "text": "📚 Seminars & Presentations\n\nAdvanced Probability Theory Seminar\nFall 2025\n\nTopic: Convergence of Random Series and Large Deviations.\nDelivered a 90-minute lecture focused on rigorous proofs of limit theorems and measure-theoretic probability.\n\n\n\nWeekly Statistical Seminar\nFall 2025\n\nTopic: Robustness of Multiple Knockoff Methods.\nPresented a review of Model-X and derandomized knockoff procedures to the research group."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jiahao Tian (Tommy)",
@@ -47,5 +68,26 @@
     "title": "Jiahao Tian (Tommy)",
     "section": "📮 Connection",
     "text": "📮 Connection\nI am always open to academic discussions and collaborations. Feel free to reach out via:\n\nPrimary: 3230105412@zju.edu.cn\nAlternative: jhtian1122@outlook.com / jiahaot1122@gmail.com"
+  },
+  {
+    "objectID": "Projects/index.html",
+    "href": "Projects/index.html",
+    "title": "Research & Projects",
+    "section": "",
+    "text": "Sept. 2025 – Present | Advised by Prof. Lijun Wang (ZJU)\n\nObjective: Investigated the finite-sample FDR control of e-value-based derandomized knockoffs.\nKey Findings: Identified a severe power breakdown (Power \\(\\to 0\\)) under heavy-tailed noise (Cauchy) and high feature collinearity (\\(\\rho \\ge 0.5\\)).\nMethodology: Diagnosed failure mechanisms within the e-BH thresholding step; evaluated robustness of alternative statistics like LASSO path difference and Random Forest.\nTheoretical Contribution: Proposed a framework utilizing the Glivenko-Cantelli theorem to calibrate the \\(\\alpha_{kn}/\\alpha_{ebh}\\) ratio and restore selection power.\nStatus: First-author manuscript in preparation.\n\n\n\n\nMar. 2026 – Present | Advised by Prof. Guanhua (UW-Madison)\n\nInvestigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models."
+  },
+  {
+    "objectID": "Projects/index.html#research-experience",
+    "href": "Projects/index.html#research-experience",
+    "title": "Research & Projects",
+    "section": "",
+    "text": "Sept. 2025 – Present | Advised by Prof. Lijun Wang (ZJU)\n\nObjective: Investigated the finite-sample FDR control of e-value-based derandomized knockoffs.\nKey Findings: Identified a severe power breakdown (Power \\(\\to 0\\)) under heavy-tailed noise (Cauchy) and high feature collinearity (\\(\\rho \\ge 0.5\\)).\nMethodology: Diagnosed failure mechanisms within the e-BH thresholding step; evaluated robustness of alternative statistics like LASSO path difference and Random Forest.\nTheoretical Contribution: Proposed a framework utilizing the Glivenko-Cantelli theorem to calibrate the \\(\\alpha_{kn}/\\alpha_{ebh}\\) ratio and restore selection power.\nStatus: First-author manuscript in preparation.\n\n\n\n\nMar. 2026 – Present | Advised by Prof. Guanhua (UW-Madison)\n\nInvestigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models."
+  },
+  {
+    "objectID": "Projects/index.html#selected-course-projects",
+    "href": "Projects/index.html#selected-course-projects",
+    "title": "Research & Projects",
+    "section": "💻 Selected Course Projects",
+    "text": "💻 Selected Course Projects\n\nC-Based CNN Forward Inference Engine\nSpring 2025 | C, Model Optimization, Binary I/O\n\nImplemented a CNN forward inference engine from scratch in C.\nAchieved a 75% latency reduction via channel pruning while maintaining \\(\\sim 99\\%\\) accuracy.\n\n\n\nUncertainty Quantification for PDEs in Random Domains\nFall 2025 | Python, Stochastic Galerkin\n\nReproduced numerical solutions for elliptic SPDEs utilizing stochastic mappings and Karhunen-Loève expansions.\nApplied Legendre polynomial chaos for robust uncertainty quantification."
   }
 ]

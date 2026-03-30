@@ -1,0 +1,36 @@
+---
+title: "Research & Projects"
+toc: true
+---
+
+## 🔬 Research Experience
+
+### Robustness of Knockoff Aggregation in Extreme Settings
+*Sept. 2025 – Present | Advised by Prof. Lijun Wang (ZJU)* 
+
+* **Objective**: Investigated the finite-sample FDR control of e-value-based derandomized knockoffs. 
+* **Key Findings**: Identified a severe power breakdown (Power $\to 0$) under heavy-tailed noise (Cauchy) and high feature collinearity ($\rho \ge 0.5$). 
+* **Methodology**: Diagnosed failure mechanisms within the e-BH thresholding step; evaluated robustness of alternative statistics like LASSO path difference and Random Forest. 
+* **Theoretical Contribution**: Proposed a framework utilizing the Glivenko-Cantelli theorem to calibrate the $\alpha_{kn}/\alpha_{ebh}$ ratio and restore selection power. 
+* **Status**: *First-author manuscript in preparation.* 
+
+### Uncertainty Quantification via Conformal Prediction
+*Mar. 2026 – Present | Advised by Prof. Guanhua (UW-Madison)* 
+
+* Investigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models. 
+
+---
+
+## 💻 Selected Course Projects
+
+### C-Based CNN Forward Inference Engine
+*Spring 2025 | C, Model Optimization, Binary I/O*
+
+* Implemented a CNN forward inference engine from scratch in C. 
+* Achieved a 75% latency reduction via channel pruning while maintaining $\sim 99\%$ accuracy. 
+
+### Uncertainty Quantification for PDEs in Random Domains
+*Fall 2025 | Python, Stochastic Galerkin* 
+
+* Reproduced numerical solutions for elliptic SPDEs utilizing stochastic mappings and Karhunen-Loève expansions.
+* Applied Legendre polynomial chaos for robust uncertainty quantification. 
