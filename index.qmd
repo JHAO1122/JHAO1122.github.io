@@ -43,7 +43,7 @@ Prior to this, I was selected for the Chu Kochen Honors College (Physics). Drive
 
 ---
 
-## 🎤 [Academic Talks](talks/index.qmd)
+## 🎤 [Academic Talks](Talks/index.qmd)
 
 * **Convergence of Random Series and Large Deviations** *(Fall 2025)* 
   Delivered a 120-minute lecture in the Advanced Probability Theory Seminar, focusing on rigorous proofs of limit theorems and large deviation principles.
