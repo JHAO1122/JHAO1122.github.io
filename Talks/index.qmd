@@ -10,10 +10,15 @@ title: "Academic Presentations & Talks"
 * **Duration**: 120-minute lecture
 
 **Abstract & Key Topics**:
+
 Delivered an in-depth lecture focused on the rigorous, measure-theoretic foundations of limit theorems and tail events. The presentation covered the detailed proofs and applications of:
+
 * Tail $\sigma$-fields, Kolmogorov's 0-1 Law, and the Hewitt-Savage 0-1 Law.
+
 * Kolmogorov's Maximal Inequality and the Three-Series Theorem.
+
 * The Strong Law of Large Numbers (SLLN) under various conditions.
+
 * **Large Deviations**: Provided a rigorous proof of Cramér's Theorem, highlighting the use of Moment Generating Functions (MGF), Legendre transforms, and the method of exponential tilting (change of measure via the Radon-Nikodym derivative) to bound tail probabilities.
 
 ---
@@ -24,6 +29,9 @@ Delivered an in-depth lecture focused on the rigorous, measure-theoretic foundat
 * **Duration**: 90-minute talk
 
 **Abstract & Key Topics**:
+
 Presented a comprehensive review of Model-X and derandomized knockoff procedures, emphasizing their theoretical guarantees for variable selection. The talk detailed:
+
 * The mechanisms of finite-sample False Discovery Rate (FDR) control and e-BH thresholding.
+
 * My ongoing research findings regarding the severe power breakdown (Power $\to 0$) of e-value-based knockoffs under extreme settings, specifically heavy-tailed noise (e.g., Cauchy distribution) and high feature collinearity.
