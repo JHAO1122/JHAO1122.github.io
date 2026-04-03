@@ -1,65 +1,62 @@
 ---
-title: "Jiahao Tian (Tommy)"
+title: "Jiahao Tian"
 about:
   template: trestles
   image: profile.jpeg  
   links:
     - icon: envelope
       text: Email
-      href: mailto:jhtian1122@outlook.com
+      href: mailto:jiahaot1122@gmail.com
     - icon: github
       text: Github
       href: https://github.com/jhao1122
     - icon: file-pdf
       text: CV
-      href: assets/Curriculum_Vitae.pdf
+      href: assets/Jiahao_s_CV.pdf
 ---
 
 ## 👋 Welcome!
 
-My name is **Jiahao Tian** (Tommy). I am a third-year undergraduate student at the [School of Mathematical Sciences](http://www.math.zju.edu.cn), **Zhejiang University (ZJU)**, majoring in Statistics.
+My name is **Jiahao Tian**. I am an undergraduate student majoring in Statistics at the [School of Mathematical Sciences](http://www.math.zju.edu.cn), **Zhejiang University (ZJU)**. 
 
-I am passionate about exploring the intersection of rigorous mathematical theory and stochastic data. My research journey is currently focused on Statistical Inference, Prediction and their diverse applications.
+Prior to this, I was selected for the Chu Kochen Honors College (Physics). Driven by a profound passion for rigorous theoretical foundations, I transferred to Statistics to pursue **strict mathematical training**. My coursework and self-study heavily concentrate on advanced pure mathematics and measure-theoretic probability. Currently, my research focuses on high-dimensional statistical inference, distribution-free prediction, and their theoretical robustness.
 
 ---
 
 ## 🔍 Research Interests
 
-* **Core:** Statistical Inference, Machine Learning, Conformal Prediction.
-* **Extended:** Bayesian Statistics, Stochastic Analysis, Quantitative Finance.
+* **Core:** High-Dimensional Statistical Inference, Conformal Prediction, Machine Learning.
+* **Extended:** Stochastic Analysis, Measure-Theoretic Probability, Quantitative Finance.
 
 ---
 
-## 🛰️ Research Experience
+## 🛰️ [Research Experience](Projects/index.qmd)
 
-### **Knockoff Method & FDR Control**
-* **Advisor:** [Prof. Lijun Wang](https://hohoweiya.xyz/), School of Mathematical Sciences, Zhejiang University.
-* Currently conducting research on statistical inference, specifically focusing on the **Knockoff method** for controlling the False Discovery Rate (FDR). 
-* Active member of the weekly lab meetings (Thursdays) discussing recent research progress and the *Elements of Statistical Learning (ESL)*.
+### **Robustness of Multiple Knockoff Aggregation Methods**
+* **Advisor:** [Prof. Lijun Wang](https://hohoweiya.xyz/), Zhejiang University. *(Sept. 2025 – Present)*
+* Systematically evaluated the robustness of state-of-the-art aggregation methods (e.g., e-value, based-voting, MDS) under extreme heavy-tailed noise and high collinearity. Diagnosed failure mechanisms within thresholding steps and explored empirical CDF approximation frameworks to dynamically calibrate selection power.
+* *Status: First-author manuscript in preparation.* 
 
-### **Conformal Prediction under Distribution Shift**
-* **Advisor:** [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/), School of Medicine and Public Health, University of Wisconsin–Madison.
-* In process.
-
----
-
-## 🏆 News and Honors
-
-* **Oct 2025:** 🥈 Honored with the **Second Prize Scholarship** from Zhejiang University.
-* **Oct 2024:** 🥉 Honored with the **Third Prize Scholarship** from Zhejiang University.
+### **Uncertainty Quantification via Conformal Prediction**
+* **Advisor:** [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/), UW–Madison. *(Mar. 2026 – Present)*
+* Investigating conformal inference frameworks to construct distribution-free and covariates shift predictive intervals for complex statistical models.
 
 ---
 
-## 📚 Academic Garden
-Beyond my research projects, I maintain a detailed collection of course notes and mathematical derivations (e.g., Stochastic Differential Equations, Asymptotic Statistics).
+## 🎤 [Academic Talks](talks/index.qmd)
 
-* Visit my [**Academic Notes →**](https://jhao1122.github.io/Notes/)
+* **Convergence of Random Series and Large Deviations** *(Fall 2025)* 
+  Delivered a 120-minute lecture in the Advanced Probability Theory Seminar, focusing on rigorous proofs of limit theorems and large deviation principles.
+* **Robustness of Multiple Knockoff Methods** *(Fall 2025)* 
+  Presented a comprehensive review of Model-X and derandomized knockoff procedures at the Weekly Statistical Seminar.
+
+---
+
+## 📚 [Academic Garden](https://jhao1122.github.io/Notes/)
+Beyond my research, I maintain a detailed, open-source collection of course notes and rigorous mathematical derivations (e.g., Stochastic Differential Equations, Asymptotic Statistics). 
 
 ---
 
 ## 📮 Connection
-I am always open to academic discussions and collaborations. Feel free to reach out via:
-
-* Primary: [3230105412@zju.edu.cn](mailto:3230105412@zju.edu.cn)
-
-* Alternative: [jhtian1122@outlook.com](mailto:jhtian1122@outlook.com) / [jiahaot1122@gmail.com](mailto:jiahaot1122@gmail.com)
+I am always open to academic discussions and collaborations. 
+* **Email:** [jiahaot1122@gmail.com](mailto:jiahaot1122@gmail.com) / [3230105412@zju.edu.cn](mailto:3230105412@zju.edu.cn)

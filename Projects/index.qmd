@@ -3,34 +3,50 @@ title: "Research & Projects"
 toc: true
 ---
 
-## 🔬 Research Experience
+## 🔬 Research Projects
 
-### Robustness of Knockoff Aggregation in Extreme Settings
-*Sept. 2025 – Present | Advised by Prof. Lijun Wang (ZJU)* 
+### Robustness of Multiple Knockoff Aggregation Methods
+* **Advisor**: [Prof. Lijun Wang](https://hohoweiya.xyz/), School of Mathematical Sciences, Zhejiang University
+* **Period**: Sept. 2025 – Present
+* **Status**: *First-author manuscript in preparation*
+* **Keywords**: False Discovery Rate (FDR) · Multiple Knockoffs · Heavy-tailed Distribution · Feature Collinearity · Copula
 
-* **Objective**: Investigated the finite-sample FDR control of e-value-based derandomized knockoffs. 
-* **Key Findings**: Identified a severe power breakdown (Power $\to 0$) under heavy-tailed noise (Cauchy) and high feature collinearity ($\rho \ge 0.5$). 
-* **Methodology**: Diagnosed failure mechanisms within the e-BH thresholding step; evaluated robustness of alternative statistics like LASSO path difference and Random Forest. 
-* **Theoretical Contribution**: Proposed a framework utilizing the Glivenko-Cantelli theorem to calibrate the $\alpha_{kn}/\alpha_{ebh}$ ratio and restore selection power. 
-* **Status**: *First-author manuscript in preparation.* 
+**Innovation & Contributions**:
+
+* Systematically evaluated the robustness of state-of-the-art aggregation methods (e-value based, based-voting, Multiple Data Splitting) under extreme heavy-tailed distributions, identifying severe power breakdowns (Power $\to 0$) under Cauchy noise.
+* Diagnosed failure mechanisms within the single thresholding step, demonstrating that overly strict thresholds lead to power loss, and empirically investigated strategies (e.g., relaxing FDR control thresholds) to rescue selection power.
+* Analyzed the impact of feature collinearity and different feature importance statistics (LASSO path difference, Random Forest), revealing that derandomized knockoffs recover their superior FDR-control performance at lower correlations ($\rho = 0.1$).
+* Investigated the parameter sensitivity of the $\alpha_{kn}/\alpha_{ebh}$ ratio, exploring empirical CDF approximation frameworks to dynamically calibrate selection thresholds.
+* Researched Copula-based extensions (e.g., Latent Gaussian and Vine Copula Knockoffs) to address and relax the strict distributional assumptions of standard Model-X procedures.
 
 ### Uncertainty Quantification via Conformal Prediction
-*Mar. 2026 – Present | Advised by Prof. Guanhua (UW-Madison)* 
+* **Advisor**: [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/), School of Medicine and Public Health, UW-Madison
+* **Period**: Mar. 2026 – Present
+* **Status**: *In progress*
+* **Keywords**: Conformal Prediction · Distribution-Free Inference · Uncertainty Quantification
 
-* Investigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models. 
+**Innovation & Contributions**:
+
+* Investigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models.
 
 ---
 
-## 💻 Selected Course Projects
+## 💻 Selected Computational Projects
 
 ### C-Based CNN Forward Inference Engine
-*Spring 2025 | C, Model Optimization, Binary I/O*
+* **Period**: Spring 2025
+* **Tech Stack**: `C`, `Model Optimization`, `Binary I/O`
 
-* Implemented a CNN forward inference engine from scratch in C. 
-* Achieved a 75% latency reduction via channel pruning while maintaining $\sim 99\%$ accuracy. 
+**Key Implementations**:
+
+* Implemented a convolutional neural network (CNN) forward inference engine completely from scratch in C.
+* Achieved a **75% latency reduction** via rigorous channel pruning while maintaining $\sim 99\%$ classification accuracy.
 
 ### Uncertainty Quantification for PDEs in Random Domains
-*Fall 2025 | Python, Stochastic Galerkin* 
+* **Period**: Fall 2025
+* **Tech Stack**: `Python`, `Stochastic Galerkin`, `Karhunen-Loève Expansions`
 
-* Reproduced numerical solutions for elliptic SPDEs utilizing stochastic mappings and Karhunen-Loève expansions.
-* Applied Legendre polynomial chaos for robust uncertainty quantification. 
+**Key Implementations**:
+
+* Reproduced numerical solutions for elliptic Stochastic Partial Differential Equations (SPDEs) utilizing stochastic mappings.
+* Applied Legendre polynomial chaos and Karhunen-Loève expansions for robust uncertainty quantification in complex domains.

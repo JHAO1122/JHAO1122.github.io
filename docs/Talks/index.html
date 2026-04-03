@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jiahao’s Space - Research &amp; Projects</title>
+<title>Jiahao’s Space - Academic Presentations &amp; Talks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -132,11 +132,11 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../Projects/index.html" aria-current="page"> 
+    <a class="nav-link" href="../Projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Talks/index.html"> 
+    <a class="nav-link active" href="../Talks/index.html" aria-current="page"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
@@ -164,15 +164,10 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#research-projects" id="toc-research-projects" class="nav-link active" data-scroll-target="#research-projects">🔬 Research Projects</a>
+  <li><a href="#seminars-presentations" id="toc-seminars-presentations" class="nav-link active" data-scroll-target="#seminars-presentations">🎤 Seminars &amp; Presentations</a>
   <ul class="collapse">
-  <li><a href="#robustness-of-multiple-knockoff-aggregation-methods" id="toc-robustness-of-multiple-knockoff-aggregation-methods" class="nav-link" data-scroll-target="#robustness-of-multiple-knockoff-aggregation-methods">Robustness of Multiple Knockoff Aggregation Methods</a></li>
-  <li><a href="#uncertainty-quantification-via-conformal-prediction" id="toc-uncertainty-quantification-via-conformal-prediction" class="nav-link" data-scroll-target="#uncertainty-quantification-via-conformal-prediction">Uncertainty Quantification via Conformal Prediction</a></li>
-  </ul></li>
-  <li><a href="#selected-computational-projects" id="toc-selected-computational-projects" class="nav-link" data-scroll-target="#selected-computational-projects">💻 Selected Computational Projects</a>
-  <ul class="collapse">
-  <li><a href="#c-based-cnn-forward-inference-engine" id="toc-c-based-cnn-forward-inference-engine" class="nav-link" data-scroll-target="#c-based-cnn-forward-inference-engine">C-Based CNN Forward Inference Engine</a></li>
-  <li><a href="#uncertainty-quantification-for-pdes-in-random-domains" id="toc-uncertainty-quantification-for-pdes-in-random-domains" class="nav-link" data-scroll-target="#uncertainty-quantification-for-pdes-in-random-domains">Uncertainty Quantification for PDEs in Random Domains</a></li>
+  <li><a href="#convergence-of-random-series-and-large-deviations" id="toc-convergence-of-random-series-and-large-deviations" class="nav-link" data-scroll-target="#convergence-of-random-series-and-large-deviations">1. Convergence of Random Series and Large Deviations</a></li>
+  <li><a href="#robustness-of-multiple-knockoff-methods" id="toc-robustness-of-multiple-knockoff-methods" class="nav-link" data-scroll-target="#robustness-of-multiple-knockoff-methods">2. Robustness of Multiple Knockoff Methods</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -182,7 +177,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research &amp; Projects</h1>
+<h1 class="title">Academic Presentations &amp; Talks</h1>
 </div>
 
 
@@ -199,65 +194,26 @@ window.Quarto = {
 </header>
 
 
-<section id="research-projects" class="level2">
-<h2 class="anchored" data-anchor-id="research-projects">🔬 Research Projects</h2>
-<section id="robustness-of-multiple-knockoff-aggregation-methods" class="level3">
-<h3 class="anchored" data-anchor-id="robustness-of-multiple-knockoff-aggregation-methods">Robustness of Multiple Knockoff Aggregation Methods</h3>
+<section id="seminars-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="seminars-presentations">🎤 Seminars &amp; Presentations</h2>
+<section id="convergence-of-random-series-and-large-deviations" class="level3">
+<h3 class="anchored" data-anchor-id="convergence-of-random-series-and-large-deviations">1. Convergence of Random Series and Large Deviations</h3>
 <ul>
-<li><strong>Advisor</strong>: <a href="https://hohoweiya.xyz/">Prof.&nbsp;Lijun Wang</a>, School of Mathematical Sciences, Zhejiang University</li>
-<li><strong>Period</strong>: Sept.&nbsp;2025 – Present</li>
-<li><strong>Status</strong>: <em>First-author manuscript in preparation</em></li>
-<li><strong>Keywords</strong>: False Discovery Rate (FDR) · Multiple Knockoffs · Heavy-tailed Distribution · Feature Collinearity · Copula</li>
+<li><strong>Context</strong>: Advanced Probability Theory Seminar</li>
+<li><strong>Date</strong>: Fall 2025</li>
+<li><strong>Duration</strong>: 120-minute lecture</li>
 </ul>
-<p><strong>Innovation &amp; Contributions</strong>:</p>
-<ul>
-<li>Systematically evaluated the robustness of state-of-the-art aggregation methods (e-value based, based-voting, Multiple Data Splitting) under extreme heavy-tailed distributions, identifying severe power breakdowns (Power <span class="math inline">\(\to 0\)</span>) under Cauchy noise.</li>
-<li>Diagnosed failure mechanisms within the single thresholding step, demonstrating that overly strict thresholds lead to power loss, and empirically investigated strategies (e.g., relaxing FDR control thresholds) to rescue selection power.</li>
-<li>Analyzed the impact of feature collinearity and different feature importance statistics (LASSO path difference, Random Forest), revealing that derandomized knockoffs recover their superior FDR-control performance at lower correlations (<span class="math inline">\(\rho = 0.1\)</span>).</li>
-<li>Investigated the parameter sensitivity of the <span class="math inline">\(\alpha_{kn}/\alpha_{ebh}\)</span> ratio, exploring empirical CDF approximation frameworks to dynamically calibrate selection thresholds.</li>
-<li>Researched Copula-based extensions (e.g., Latent Gaussian and Vine Copula Knockoffs) to address and relax the strict distributional assumptions of standard Model-X procedures.</li>
-</ul>
-</section>
-<section id="uncertainty-quantification-via-conformal-prediction" class="level3">
-<h3 class="anchored" data-anchor-id="uncertainty-quantification-via-conformal-prediction">Uncertainty Quantification via Conformal Prediction</h3>
-<ul>
-<li><strong>Advisor</strong>: <a href="https://sites.google.com/view/gchenwisc/">Prof.&nbsp;Guanhua Chen</a>, School of Medicine and Public Health, UW-Madison</li>
-<li><strong>Period</strong>: Mar.&nbsp;2026 – Present</li>
-<li><strong>Status</strong>: <em>In progress</em></li>
-<li><strong>Keywords</strong>: Conformal Prediction · Distribution-Free Inference · Uncertainty Quantification</li>
-</ul>
-<p><strong>Innovation &amp; Contributions</strong>:</p>
-<ul>
-<li>Investigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models.</li>
-</ul>
+<p><strong>Abstract &amp; Key Topics</strong>: Delivered an in-depth lecture focused on the rigorous, measure-theoretic foundations of limit theorems and tail events. The presentation covered the detailed proofs and applications of: * Tail <span class="math inline">\(\sigma\)</span>-fields, Kolmogorov’s 0-1 Law, and the Hewitt-Savage 0-1 Law. * Kolmogorov’s Maximal Inequality and the Three-Series Theorem. * The Strong Law of Large Numbers (SLLN) under various conditions. * <strong>Large Deviations</strong>: Provided a rigorous proof of Cramér’s Theorem, highlighting the use of Moment Generating Functions (MGF), Legendre transforms, and the method of exponential tilting (change of measure via the Radon-Nikodym derivative) to bound tail probabilities.</p>
 <hr>
 </section>
-</section>
-<section id="selected-computational-projects" class="level2">
-<h2 class="anchored" data-anchor-id="selected-computational-projects">💻 Selected Computational Projects</h2>
-<section id="c-based-cnn-forward-inference-engine" class="level3">
-<h3 class="anchored" data-anchor-id="c-based-cnn-forward-inference-engine">C-Based CNN Forward Inference Engine</h3>
+<section id="robustness-of-multiple-knockoff-methods" class="level3">
+<h3 class="anchored" data-anchor-id="robustness-of-multiple-knockoff-methods">2. Robustness of Multiple Knockoff Methods</h3>
 <ul>
-<li><strong>Period</strong>: Spring 2025</li>
-<li><strong>Tech Stack</strong>: <code>C</code>, <code>Model Optimization</code>, <code>Binary I/O</code></li>
+<li><strong>Context</strong>: Weekly Statistical Seminar (Prof.&nbsp;Lijun Wang’s Group)</li>
+<li><strong>Date</strong>: Fall 2025</li>
+<li><strong>Duration</strong>: 90-minute talk</li>
 </ul>
-<p><strong>Key Implementations</strong>:</p>
-<ul>
-<li>Implemented a convolutional neural network (CNN) forward inference engine completely from scratch in C.</li>
-<li>Achieved a <strong>75% latency reduction</strong> via rigorous channel pruning while maintaining <span class="math inline">\(\sim 99\%\)</span> classification accuracy.</li>
-</ul>
-</section>
-<section id="uncertainty-quantification-for-pdes-in-random-domains" class="level3">
-<h3 class="anchored" data-anchor-id="uncertainty-quantification-for-pdes-in-random-domains">Uncertainty Quantification for PDEs in Random Domains</h3>
-<ul>
-<li><strong>Period</strong>: Fall 2025</li>
-<li><strong>Tech Stack</strong>: <code>Python</code>, <code>Stochastic Galerkin</code>, <code>Karhunen-Loève Expansions</code></li>
-</ul>
-<p><strong>Key Implementations</strong>:</p>
-<ul>
-<li>Reproduced numerical solutions for elliptic Stochastic Partial Differential Equations (SPDEs) utilizing stochastic mappings.</li>
-<li>Applied Legendre polynomial chaos and Karhunen-Loève expansions for robust uncertainty quantification in complex domains.</li>
-</ul>
+<p><strong>Abstract &amp; Key Topics</strong>: Presented a comprehensive review of Model-X and derandomized knockoff procedures, emphasizing their theoretical guarantees for variable selection. The talk detailed: * The mechanisms of finite-sample False Discovery Rate (FDR) control and e-BH thresholding. * My ongoing research findings regarding the severe power breakdown (Power <span class="math inline">\(\to 0\)</span>) of e-value-based knockoffs under extreme settings, specifically heavy-tailed noise (e.g., Cauchy distribution) and high feature collinearity.</p>
 
 
 </section>

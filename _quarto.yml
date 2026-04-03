@@ -13,6 +13,8 @@ website:
         text: Home
       - href: Projects/index.qmd
         text: Projects
+      - href: Talks/index.qmd
+        text: Talks
       - href: Teaching/index.qmd
         text: Teaching
       - href: https://jhao1122.github.io/Notes/
@@ -23,9 +25,10 @@ website:
 
 format:
   html:
-    theme: 
-      - cosmo         
-      - custom.scss   
-    toc: true         
+    theme:
+      light: [flatly, custom.scss]
+      dark: [darkly, custom.scss]
+    dark-mode-switch: true 
+    toc: true
     number-sections: false
 

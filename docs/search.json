@@ -1,86 +1,86 @@
 [
   {
-    "objectID": "Teaching/index.html",
-    "href": "Teaching/index.html",
-    "title": "Teaching",
+    "objectID": "Talks/index.html",
+    "href": "Talks/index.html",
+    "title": "Academic Presentations & Talks",
     "section": "",
-    "text": "Fall 2025\n\nTopic: Convergence of Random Series and Large Deviations.\nDelivered a 90-minute lecture focused on rigorous proofs of limit theorems and measure-theoretic probability.\n\n\n\n\nFall 2025\n\nTopic: Robustness of Multiple Knockoff Methods.\nPresented a review of Model-X and derandomized knockoff procedures to the research group."
+    "text": "Context: Advanced Probability Theory Seminar\nDate: Fall 2025\nDuration: 120-minute lecture\n\nAbstract & Key Topics: Delivered an in-depth lecture focused on the rigorous, measure-theoretic foundations of limit theorems and tail events. The presentation covered the detailed proofs and applications of: * Tail \\(\\sigma\\)-fields, Kolmogorov’s 0-1 Law, and the Hewitt-Savage 0-1 Law. * Kolmogorov’s Maximal Inequality and the Three-Series Theorem. * The Strong Law of Large Numbers (SLLN) under various conditions. * Large Deviations: Provided a rigorous proof of Cramér’s Theorem, highlighting the use of Moment Generating Functions (MGF), Legendre transforms, and the method of exponential tilting (change of measure via the Radon-Nikodym derivative) to bound tail probabilities.\n\n\n\n\n\nContext: Weekly Statistical Seminar (Prof. Lijun Wang’s Group)\nDate: Fall 2025\nDuration: 90-minute talk\n\nAbstract & Key Topics: Presented a comprehensive review of Model-X and derandomized knockoff procedures, emphasizing their theoretical guarantees for variable selection. The talk detailed: * The mechanisms of finite-sample False Discovery Rate (FDR) control and e-BH thresholding. * My ongoing research findings regarding the severe power breakdown (Power \\(\\to 0\\)) of e-value-based knockoffs under extreme settings, specifically heavy-tailed noise (e.g., Cauchy distribution) and high feature collinearity."
   },
   {
-    "objectID": "Teaching/index.html#seminars-presentations",
-    "href": "Teaching/index.html#seminars-presentations",
-    "title": "Teaching",
+    "objectID": "Talks/index.html#seminars-presentations",
+    "href": "Talks/index.html#seminars-presentations",
+    "title": "Academic Presentations & Talks",
     "section": "",
-    "text": "Fall 2025\n\nTopic: Convergence of Random Series and Large Deviations.\nDelivered a 90-minute lecture focused on rigorous proofs of limit theorems and measure-theoretic probability.\n\n\n\n\nFall 2025\n\nTopic: Robustness of Multiple Knockoff Methods.\nPresented a review of Model-X and derandomized knockoff procedures to the research group."
+    "text": "Context: Advanced Probability Theory Seminar\nDate: Fall 2025\nDuration: 120-minute lecture\n\nAbstract & Key Topics: Delivered an in-depth lecture focused on the rigorous, measure-theoretic foundations of limit theorems and tail events. The presentation covered the detailed proofs and applications of: * Tail \\(\\sigma\\)-fields, Kolmogorov’s 0-1 Law, and the Hewitt-Savage 0-1 Law. * Kolmogorov’s Maximal Inequality and the Three-Series Theorem. * The Strong Law of Large Numbers (SLLN) under various conditions. * Large Deviations: Provided a rigorous proof of Cramér’s Theorem, highlighting the use of Moment Generating Functions (MGF), Legendre transforms, and the method of exponential tilting (change of measure via the Radon-Nikodym derivative) to bound tail probabilities.\n\n\n\n\n\nContext: Weekly Statistical Seminar (Prof. Lijun Wang’s Group)\nDate: Fall 2025\nDuration: 90-minute talk\n\nAbstract & Key Topics: Presented a comprehensive review of Model-X and derandomized knockoff procedures, emphasizing their theoretical guarantees for variable selection. The talk detailed: * The mechanisms of finite-sample False Discovery Rate (FDR) control and e-BH thresholding. * My ongoing research findings regarding the severe power breakdown (Power \\(\\to 0\\)) of e-value-based knockoffs under extreme settings, specifically heavy-tailed noise (e.g., Cauchy distribution) and high feature collinearity."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Jiahao Tian (Tommy)",
+    "title": "Jiahao Tian",
     "section": "",
-    "text": "My name is Jiahao Tian (Tommy). I am a third-year undergraduate student at the School of Mathematical Sciences, Zhejiang University (ZJU), majoring in Statistics.\nI am passionate about exploring the intersection of rigorous mathematical theory and stochastic data. My research journey is currently focused on Statistical Inference, Prediction and their diverse applications."
+    "text": "My name is Jiahao Tian. I am an undergraduate student majoring in Statistics at the School of Mathematical Sciences, Zhejiang University (ZJU).\nPrior to this, I was selected for the Chu Kochen Honors College (Physics). Driven by a profound passion for rigorous theoretical foundations, I transferred to Statistics to pursue strict mathematical training. My coursework and self-study heavily concentrate on advanced pure mathematics and measure-theoretic probability. Currently, my research focuses on high-dimensional statistical inference, distribution-free prediction, and their theoretical robustness."
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
-    "title": "Jiahao Tian (Tommy)",
+    "title": "Jiahao Tian",
     "section": "",
-    "text": "My name is Jiahao Tian (Tommy). I am a third-year undergraduate student at the School of Mathematical Sciences, Zhejiang University (ZJU), majoring in Statistics.\nI am passionate about exploring the intersection of rigorous mathematical theory and stochastic data. My research journey is currently focused on Statistical Inference, Prediction and their diverse applications."
+    "text": "My name is Jiahao Tian. I am an undergraduate student majoring in Statistics at the School of Mathematical Sciences, Zhejiang University (ZJU).\nPrior to this, I was selected for the Chu Kochen Honors College (Physics). Driven by a profound passion for rigorous theoretical foundations, I transferred to Statistics to pursue strict mathematical training. My coursework and self-study heavily concentrate on advanced pure mathematics and measure-theoretic probability. Currently, my research focuses on high-dimensional statistical inference, distribution-free prediction, and their theoretical robustness."
   },
   {
     "objectID": "index.html#research-interests",
     "href": "index.html#research-interests",
-    "title": "Jiahao Tian (Tommy)",
+    "title": "Jiahao Tian",
     "section": "🔍 Research Interests",
-    "text": "🔍 Research Interests\n\nCore: Statistical Inference, Machine Learning, Conformal Prediction.\nExtended: Bayesian Statistics, Stochastic Analysis, Quantitative Finance."
+    "text": "🔍 Research Interests\n\nCore: High-Dimensional Statistical Inference, Conformal Prediction, Machine Learning.\nExtended: Stochastic Analysis, Measure-Theoretic Probability, Quantitative Finance."
   },
   {
     "objectID": "index.html#research-experience",
     "href": "index.html#research-experience",
-    "title": "Jiahao Tian (Tommy)",
+    "title": "Jiahao Tian",
     "section": "🛰️ Research Experience",
-    "text": "🛰️ Research Experience\n\nKnockoff Method & FDR Control\n\nAdvisor: Prof. Lijun Wang, School of Mathematical Sciences, Zhejiang University.\nCurrently conducting research on statistical inference, specifically focusing on the Knockoff method for controlling the False Discovery Rate (FDR).\nActive member of the weekly lab meetings (Thursdays) discussing recent research progress and the Elements of Statistical Learning (ESL).\n\n\n\nConformal Prediction under Distribution Shift\n\nAdvisor: Prof. Guanhua Chen, School of Medicine and Public Health, University of Wisconsin–Madison.\nIn process."
+    "text": "🛰️ Research Experience\n\nRobustness of Multiple Knockoff Aggregation Methods\n\nAdvisor: Prof. Lijun Wang, Zhejiang University. (Sept. 2025 – Present)\nSystematically evaluated the robustness of state-of-the-art aggregation methods (e.g., e-value, based-voting, MDS) under extreme heavy-tailed noise and high collinearity. Diagnosed failure mechanisms within thresholding steps and explored empirical CDF approximation frameworks to dynamically calibrate selection power.\nStatus: First-author manuscript in preparation.\n\n\n\nUncertainty Quantification via Conformal Prediction\n\nAdvisor: Prof. Guanhua Chen, UW–Madison. (Mar. 2026 – Present)\nInvestigating conformal inference frameworks to construct distribution-free and covariates shift predictive intervals for complex statistical models."
   },
   {
-    "objectID": "index.html#news-and-honors",
-    "href": "index.html#news-and-honors",
-    "title": "Jiahao Tian (Tommy)",
-    "section": "🏆 News and Honors",
-    "text": "🏆 News and Honors\n\nOct 2025: 🥈 Honored with the Second Prize Scholarship from Zhejiang University.\nOct 2024: 🥉 Honored with the Third Prize Scholarship from Zhejiang University."
+    "objectID": "index.html#academic-talks",
+    "href": "index.html#academic-talks",
+    "title": "Jiahao Tian",
+    "section": "🎤 Academic Talks",
+    "text": "🎤 Academic Talks\n\nConvergence of Random Series and Large Deviations (Fall 2025) Delivered a 120-minute lecture in the Advanced Probability Theory Seminar, focusing on rigorous proofs of limit theorems and large deviation principles.\nRobustness of Multiple Knockoff Methods (Fall 2025) Presented a comprehensive review of Model-X and derandomized knockoff procedures at the Weekly Statistical Seminar."
   },
   {
     "objectID": "index.html#academic-garden",
     "href": "index.html#academic-garden",
-    "title": "Jiahao Tian (Tommy)",
+    "title": "Jiahao Tian",
     "section": "📚 Academic Garden",
-    "text": "📚 Academic Garden\nBeyond my research projects, I maintain a detailed collection of course notes and mathematical derivations (e.g., Stochastic Differential Equations, Asymptotic Statistics).\n\nVisit my Academic Notes →"
+    "text": "📚 Academic Garden\nBeyond my research, I maintain a detailed, open-source collection of course notes and rigorous mathematical derivations (e.g., Stochastic Differential Equations, Asymptotic Statistics)."
   },
   {
     "objectID": "index.html#connection",
     "href": "index.html#connection",
-    "title": "Jiahao Tian (Tommy)",
+    "title": "Jiahao Tian",
     "section": "📮 Connection",
-    "text": "📮 Connection\nI am always open to academic discussions and collaborations. Feel free to reach out via:\n\nPrimary: 3230105412@zju.edu.cn\nAlternative: jhtian1122@outlook.com / jiahaot1122@gmail.com"
+    "text": "📮 Connection\nI am always open to academic discussions and collaborations. * Email: jiahaot1122@gmail.com / 3230105412@zju.edu.cn"
   },
   {
     "objectID": "Projects/index.html",
     "href": "Projects/index.html",
     "title": "Research & Projects",
     "section": "",
-    "text": "Sept. 2025 – Present | Advised by Prof. Lijun Wang (ZJU)\n\nObjective: Investigated the finite-sample FDR control of e-value-based derandomized knockoffs.\nKey Findings: Identified a severe power breakdown (Power \\(\\to 0\\)) under heavy-tailed noise (Cauchy) and high feature collinearity (\\(\\rho \\ge 0.5\\)).\nMethodology: Diagnosed failure mechanisms within the e-BH thresholding step; evaluated robustness of alternative statistics like LASSO path difference and Random Forest.\nTheoretical Contribution: Proposed a framework utilizing the Glivenko-Cantelli theorem to calibrate the \\(\\alpha_{kn}/\\alpha_{ebh}\\) ratio and restore selection power.\nStatus: First-author manuscript in preparation.\n\n\n\n\nMar. 2026 – Present | Advised by Prof. Guanhua (UW-Madison)\n\nInvestigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models."
+    "text": "Advisor: Prof. Lijun Wang, School of Mathematical Sciences, Zhejiang University\nPeriod: Sept. 2025 – Present\nStatus: First-author manuscript in preparation\nKeywords: False Discovery Rate (FDR) · Multiple Knockoffs · Heavy-tailed Distribution · Feature Collinearity · Copula\n\nInnovation & Contributions:\n\nSystematically evaluated the robustness of state-of-the-art aggregation methods (e-value based, based-voting, Multiple Data Splitting) under extreme heavy-tailed distributions, identifying severe power breakdowns (Power \\(\\to 0\\)) under Cauchy noise.\nDiagnosed failure mechanisms within the single thresholding step, demonstrating that overly strict thresholds lead to power loss, and empirically investigated strategies (e.g., relaxing FDR control thresholds) to rescue selection power.\nAnalyzed the impact of feature collinearity and different feature importance statistics (LASSO path difference, Random Forest), revealing that derandomized knockoffs recover their superior FDR-control performance at lower correlations (\\(\\rho = 0.1\\)).\nInvestigated the parameter sensitivity of the \\(\\alpha_{kn}/\\alpha_{ebh}\\) ratio, exploring empirical CDF approximation frameworks to dynamically calibrate selection thresholds.\nResearched Copula-based extensions (e.g., Latent Gaussian and Vine Copula Knockoffs) to address and relax the strict distributional assumptions of standard Model-X procedures.\n\n\n\n\n\nAdvisor: Prof. Guanhua Chen, School of Medicine and Public Health, UW-Madison\nPeriod: Mar. 2026 – Present\nStatus: In progress\nKeywords: Conformal Prediction · Distribution-Free Inference · Uncertainty Quantification\n\nInnovation & Contributions:\n\nInvestigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models."
   },
   {
-    "objectID": "Projects/index.html#research-experience",
-    "href": "Projects/index.html#research-experience",
+    "objectID": "Projects/index.html#research-projects",
+    "href": "Projects/index.html#research-projects",
     "title": "Research & Projects",
     "section": "",
-    "text": "Sept. 2025 – Present | Advised by Prof. Lijun Wang (ZJU)\n\nObjective: Investigated the finite-sample FDR control of e-value-based derandomized knockoffs.\nKey Findings: Identified a severe power breakdown (Power \\(\\to 0\\)) under heavy-tailed noise (Cauchy) and high feature collinearity (\\(\\rho \\ge 0.5\\)).\nMethodology: Diagnosed failure mechanisms within the e-BH thresholding step; evaluated robustness of alternative statistics like LASSO path difference and Random Forest.\nTheoretical Contribution: Proposed a framework utilizing the Glivenko-Cantelli theorem to calibrate the \\(\\alpha_{kn}/\\alpha_{ebh}\\) ratio and restore selection power.\nStatus: First-author manuscript in preparation.\n\n\n\n\nMar. 2026 – Present | Advised by Prof. Guanhua (UW-Madison)\n\nInvestigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models."
+    "text": "Advisor: Prof. Lijun Wang, School of Mathematical Sciences, Zhejiang University\nPeriod: Sept. 2025 – Present\nStatus: First-author manuscript in preparation\nKeywords: False Discovery Rate (FDR) · Multiple Knockoffs · Heavy-tailed Distribution · Feature Collinearity · Copula\n\nInnovation & Contributions:\n\nSystematically evaluated the robustness of state-of-the-art aggregation methods (e-value based, based-voting, Multiple Data Splitting) under extreme heavy-tailed distributions, identifying severe power breakdowns (Power \\(\\to 0\\)) under Cauchy noise.\nDiagnosed failure mechanisms within the single thresholding step, demonstrating that overly strict thresholds lead to power loss, and empirically investigated strategies (e.g., relaxing FDR control thresholds) to rescue selection power.\nAnalyzed the impact of feature collinearity and different feature importance statistics (LASSO path difference, Random Forest), revealing that derandomized knockoffs recover their superior FDR-control performance at lower correlations (\\(\\rho = 0.1\\)).\nInvestigated the parameter sensitivity of the \\(\\alpha_{kn}/\\alpha_{ebh}\\) ratio, exploring empirical CDF approximation frameworks to dynamically calibrate selection thresholds.\nResearched Copula-based extensions (e.g., Latent Gaussian and Vine Copula Knockoffs) to address and relax the strict distributional assumptions of standard Model-X procedures.\n\n\n\n\n\nAdvisor: Prof. Guanhua Chen, School of Medicine and Public Health, UW-Madison\nPeriod: Mar. 2026 – Present\nStatus: In progress\nKeywords: Conformal Prediction · Distribution-Free Inference · Uncertainty Quantification\n\nInnovation & Contributions:\n\nInvestigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models."
   },
   {
-    "objectID": "Projects/index.html#selected-course-projects",
-    "href": "Projects/index.html#selected-course-projects",
+    "objectID": "Projects/index.html#selected-computational-projects",
+    "href": "Projects/index.html#selected-computational-projects",
     "title": "Research & Projects",
-    "section": "💻 Selected Course Projects",
-    "text": "💻 Selected Course Projects\n\nC-Based CNN Forward Inference Engine\nSpring 2025 | C, Model Optimization, Binary I/O\n\nImplemented a CNN forward inference engine from scratch in C.\nAchieved a 75% latency reduction via channel pruning while maintaining \\(\\sim 99\\%\\) accuracy.\n\n\n\nUncertainty Quantification for PDEs in Random Domains\nFall 2025 | Python, Stochastic Galerkin\n\nReproduced numerical solutions for elliptic SPDEs utilizing stochastic mappings and Karhunen-Loève expansions.\nApplied Legendre polynomial chaos for robust uncertainty quantification."
+    "section": "💻 Selected Computational Projects",
+    "text": "💻 Selected Computational Projects\n\nC-Based CNN Forward Inference Engine\n\nPeriod: Spring 2025\nTech Stack: C, Model Optimization, Binary I/O\n\nKey Implementations:\n\nImplemented a convolutional neural network (CNN) forward inference engine completely from scratch in C.\nAchieved a 75% latency reduction via rigorous channel pruning while maintaining \\(\\sim 99\\%\\) classification accuracy.\n\n\n\nUncertainty Quantification for PDEs in Random Domains\n\nPeriod: Fall 2025\nTech Stack: Python, Stochastic Galerkin, Karhunen-Loève Expansions\n\nKey Implementations:\n\nReproduced numerical solutions for elliptic Stochastic Partial Differential Equations (SPDEs) utilizing stochastic mappings.\nApplied Legendre polynomial chaos and Karhunen-Loève expansions for robust uncertainty quantification in complex domains."
   }
 ]

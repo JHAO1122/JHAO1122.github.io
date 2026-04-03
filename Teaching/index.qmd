@@ -3,16 +3,5 @@ title: "Teaching"
 ---
 
 
-## 📚 Seminars & Presentations
+## 🧑‍🏫 Teaching Experiences
 
-### Advanced Probability Theory Seminar
-*Fall 2025* 
-
-* **Topic**: *Convergence of Random Series and Large Deviations*. 
-* Delivered a 90-minute lecture focused on rigorous proofs of limit theorems and measure-theoretic probability. 
-
-### Weekly Statistical Seminar
-*Fall 2025* 
-
-* **Topic**: *Robustness of Multiple Knockoff Methods*. 
-* Presented a review of Model-X and derandomized knockoff procedures to the research group. 
