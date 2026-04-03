@@ -12,7 +12,7 @@ about:
       href: https://github.com/jhao1122
     - icon: file-pdf
       text: CV
-      href: Curriculum_Vitae.pdf
+      href: assets/Curriculum_Vitae.pdf
 ---
 
 ## 👋 Welcome!
