@@ -25,7 +25,7 @@ Prior to this, I was selected for the Chu Kochen Honors College (Physics). Drive
 
 ## 🔍 Research Interests
 
-* **Core:** High-Dimensional Statistical Inference, Conformal Prediction, Machine Learning.
+* **Core:** High-Dimensional Statistical Inference, Conformal Prediction, Statistical Learning.
 * **Extended:** Stochastic Analysis, Bayesian Inference, Quantitative Finance.
 
 ---
