@@ -3,6 +3,7 @@
 This repository contains the source code for my personal academic website, built with [Quarto](https://quarto.org/). 
 
 🌐 **Live Site:** [https://jhao1122.github.io/]
+
 📚 **Academic Garden (Notes):** [https://jhao1122.github.io/Notes/](https://jhao1122.github.io/Notes/)
 
 ---
