@@ -77,6 +77,35 @@ gtag('js', new Date());
 gtag('config', 'G-MPD6ZGWYW1', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -137,7 +166,7 @@ gtag('config', 'G-MPD6ZGWYW1', { 'anonymize_ip': true});
   <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">🔍 Research Interests</a></li>
   <li><a href="#research-experience" id="toc-research-experience" class="nav-link" data-scroll-target="#research-experience">🛰️ Research Experience</a>
   <ul class="collapse">
-  <li><a href="#robustness-of-multiple-knockoff-aggregation-methods" id="toc-robustness-of-multiple-knockoff-aggregation-methods" class="nav-link" data-scroll-target="#robustness-of-multiple-knockoff-aggregation-methods"><strong>Robustness of Multiple Knockoff Aggregation Methods</strong></a></li>
+  <li><a href="#robustness-of-multiple-knockoff-aggregation-methods" id="toc-robustness-of-multiple-knockoff-aggregation-methods" class="nav-link" data-scroll-target="#robustness-of-multiple-knockoff-aggregation-methods"><strong>Robustness of Multiple-Knockoff Aggregation Methods</strong></a></li>
   <li><a href="#uncertainty-quantification-via-conformal-prediction" id="toc-uncertainty-quantification-via-conformal-prediction" class="nav-link" data-scroll-target="#uncertainty-quantification-via-conformal-prediction"><strong>Uncertainty Quantification via Conformal Prediction</strong></a></li>
   </ul></li>
   <li><a href="#academic-talks" id="toc-academic-talks" class="nav-link" data-scroll-target="#academic-talks">🎤 Academic Talks</a></li>
@@ -192,10 +221,10 @@ gtag('config', 'G-MPD6ZGWYW1', { 'anonymize_ip': true});
 <section id="research-experience" class="level2">
 <h2 data-anchor-id="research-experience">🛰️ <a href="./Projects/index.html">Research Experience</a></h2>
 <section id="robustness-of-multiple-knockoff-aggregation-methods" class="level3">
-<h3 data-anchor-id="robustness-of-multiple-knockoff-aggregation-methods"><strong>Robustness of Multiple Knockoff Aggregation Methods</strong></h3>
+<h3 data-anchor-id="robustness-of-multiple-knockoff-aggregation-methods"><strong>Robustness of Multiple-Knockoff Aggregation Methods</strong></h3>
 <ul>
 <li><strong>Advisor:</strong> <a href="https://hohoweiya.xyz/">Prof.&nbsp;Lijun Wang</a>, Zhejiang University. <em>(Sept.&nbsp;2025 – Present)</em></li>
-<li>Systematically evaluated the robustness of state-of-the-art aggregation methods (e.g., e-value, based-voting, MDS) under extreme heavy-tailed noise and high collinearity. Diagnosed failure mechanisms within thresholding steps and explored empirical CDF approximation frameworks to dynamically calibrate selection power.</li>
+<li>Identified catastrophic power collapse (<span class="math inline">\(\text{Power} \to 0\)</span>) in e-value, AKO, and voting-based aggregation under Cauchy noise, characterizing the “zero-dilution effect” where signal sparsity propagates across multiple runs. Proved a multiplicity-based threshold inflation theorem using Extreme Value Theory (EVT) and Hoeffding’s inequality, showing that null multiplicity <span class="math inline">\((p-k \gg k)\)</span> forces thresholds to <span class="math inline">\(\mathcal{O}(np)\)</span>. Evaluated robust statistics (LAD-Lasso, Cauchy Regression, Log-Squashing Lasso) to stabilize heavy tails via symmetric log-transforms.</li>
 <li><em>Status: First-author manuscript in preparation.</em></li>
 </ul>
 </section>
@@ -203,7 +232,8 @@ gtag('config', 'G-MPD6ZGWYW1', { 'anonymize_ip': true});
 <h3 data-anchor-id="uncertainty-quantification-via-conformal-prediction"><strong>Uncertainty Quantification via Conformal Prediction</strong></h3>
 <ul>
 <li><strong>Advisor:</strong> <a href="https://sites.google.com/view/gchenwisc/">Prof.&nbsp;Guanhua Chen</a>, UW–Madison. <em>(Mar.&nbsp;2026 – Present)</em></li>
-<li>Investigating conformal inference frameworks to construct distribution-free and covariates shift predictive intervals for complex statistical models.</li>
+<li>Established a Fourier analytic framework to prove the robustness of Characteristic Function Distance (CFD) kernels under extreme covariate shift, demonstrating the stability of Laplace and Energy kernels via polynomial frequency penalization over Gaussian geometry. Integrated CFD weighting into UACQR and Split CP with Cholesky decomposition protection, successfully suppressing infinite interval rates (<span class="math inline">\(5.8\% \to 2.0\%\)</span>) and identifying the “dimensionality paradox” and variance-bias trade-off in high-dimensional QRF.</li>
+<li><em>Status: In progress.</em></li>
 </ul>
 <hr>
 </section>

@@ -5,29 +5,34 @@ toc: true
 
 ## 🔬 Research Projects
 
-### Robustness of Multiple Knockoff Aggregation Methods
-* **Advisor**: [Prof. Lijun Wang](https://hohoweiya.xyz/), School of Mathematical Sciences, Zhejiang University
+### Robustness of Multiple-Knockoff Aggregation Methods
+* **Advisor**: Prof. Lijun Wang, School of Mathematical Sciences, Zhejiang University
 * **Period**: Sept. 2025 – Present
 * **Status**: *First-author manuscript in preparation*
-* **Keywords**: False Discovery Rate (FDR) · Multiple Knockoffs · Heavy-tailed Distribution · Feature Collinearity · Copula
+* **Keywords**: False Discovery Rate (FDR) · Multiple Knockoffs · Heavy-tailed Distribution · Extreme Value Theory · Robust Statistics
 
 **Innovation & Contributions**:
 
-* Systematically evaluated the robustness of state-of-the-art aggregation methods (e-value based, based-voting, Multiple Data Splitting) under extreme heavy-tailed distributions, identifying severe power breakdowns (Power $\to 0$) under Cauchy noise.
-* Diagnosed failure mechanisms within the single thresholding step, demonstrating that overly strict thresholds lead to power loss, and empirically investigated strategies (e.g., relaxing FDR control thresholds) to rescue selection power.
-* Analyzed the impact of feature collinearity and different feature importance statistics (LASSO path difference, Random Forest), revealing that derandomized knockoffs recover their superior FDR-control performance at lower correlations ($\rho = 0.1$).
-* Investigated the parameter sensitivity of the $\alpha_{kn}/\alpha_{ebh}$ ratio, exploring empirical CDF approximation frameworks to dynamically calibrate selection thresholds.
-* Researched Copula-based extensions (e.g., Latent Gaussian and Vine Copula Knockoffs) to address and relax the strict distributional assumptions of standard Model-X procedures.
+* Identified catastrophic power collapse (Power→0) in e-value, AKO, and voting-based aggregation under Cauchy noise.
+* Characterized the "zero-dilution effect" where signal sparsity propagates across multiple runs.
+* Proved a multiplicity-based threshold inflation theorem using Extreme Value Theory (EVT) and Hoeffding's inequality.
+* Showed that null multiplicity $(p-k\gg k)$ forces thresholds to $\mathcal{O}(np)$, suppressing signals despite matched tail indices $(1/2)$.
+* Evaluated robust statistics (LAD-Lasso, Cauchy Regression, Log-Squashing Lasso) to mitigate infinite variance.
+* Analyzed how symmetric log-transforms stabilize heavy tails while preserving ordinal signal rankings.
 
 ### Uncertainty Quantification via Conformal Prediction
-* **Advisor**: [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/), School of Medicine and Public Health, UW-Madison
+* **Advisor**: Prof. Guanhua Chen, UW-Madison
 * **Period**: Mar. 2026 – Present
 * **Status**: *In progress*
-* **Keywords**: Conformal Prediction · Distribution-Free Inference · Uncertainty Quantification
+* **Keywords**: Conformal Prediction · Covariate Shift · Characteristic Function Distance · UACQR
 
 **Innovation & Contributions**:
 
-* Investigating conformal inference frameworks to construct distribution-free predictive intervals for complex statistical models.
+* Established a Fourier analytic framework to prove the robustness of Characteristic Function Distance (CFD) kernels under extreme covariate shift.
+* Demonstrated that while Gaussian geometry collapses super-polynomially on sharp interfaces, Laplace and Energy kernels maintain stability via polynomial frequency penalization.
+* Integrated CFD weighting into UACQR and Split CP, implementing a numerically stable pipeline with Cholesky decomposition protection.
+* Suppressed infinite interval rates (5.8%→2.0%).
+* Identified a "dimensionality paradox": high-dimensional QRF self-corrects for shift via feature selection, while extreme weighting collapses ESS and induces variance-bias trade-off.
 
 ---
 

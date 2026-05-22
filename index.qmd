@@ -32,23 +32,22 @@ Prior to this, I was selected for the Chu Kochen Honors College (Physics). Drive
 
 ## 🛰️ [Research Experience](Projects/index.qmd)
 
-### **Robustness of Multiple Knockoff Aggregation Methods**
+### **Robustness of Multiple-Knockoff Aggregation Methods**
 * **Advisor:** [Prof. Lijun Wang](https://hohoweiya.xyz/), Zhejiang University. *(Sept. 2025 – Present)*
-* Systematically evaluated the robustness of state-of-the-art aggregation methods (e.g., e-value, based-voting, MDS) under extreme heavy-tailed noise and high collinearity. Diagnosed failure mechanisms within thresholding steps and explored empirical CDF approximation frameworks to dynamically calibrate selection power.
-* *Status: First-author manuscript in preparation.* 
+* Identified catastrophic power collapse ($\text{Power} \to 0$) in e-value, AKO, and voting-based aggregation under Cauchy noise, characterizing the "zero-dilution effect" where signal sparsity propagates across multiple runs. Proved a multiplicity-based threshold inflation theorem using Extreme Value Theory (EVT) and Hoeffding's inequality, showing that null multiplicity $(p-k \gg k)$ forces thresholds to $\mathcal{O}(np)$. Evaluated robust statistics (LAD-Lasso, Cauchy Regression, Log-Squashing Lasso) to stabilize heavy tails via symmetric log-transforms.
+* *Status: First-author manuscript in preparation.*
 
 ### **Uncertainty Quantification via Conformal Prediction**
 * **Advisor:** [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/), UW–Madison. *(Mar. 2026 – Present)*
-* Investigating conformal inference frameworks to construct distribution-free and covariates shift predictive intervals for complex statistical models.
+* Established a Fourier analytic framework to prove the robustness of Characteristic Function Distance (CFD) kernels under extreme covariate shift, demonstrating the stability of Laplace and Energy kernels via polynomial frequency penalization over Gaussian geometry. Integrated CFD weighting into UACQR and Split CP with Cholesky decomposition protection, successfully suppressing infinite interval rates ($5.8\% \to 2.0\%$) and identifying the "dimensionality paradox" and variance-bias trade-off in high-dimensional QRF.
+* *Status: In progress.*
 
 ---
 
 ## 🎤 [Academic Talks](Talks/index.qmd)
 
-* **Convergence of Random Series and Large Deviations** *(Fall 2025)* 
-  Delivered a 120-minute lecture in the Advanced Probability Theory Seminar, focusing on rigorous proofs of limit theorems and large deviation principles.
-* **Robustness of Multiple Knockoff Methods** *(Fall 2025)* 
-  Presented a comprehensive review of Model-X and derandomized knockoff procedures at the Weekly Statistical Seminar.
+* **Convergence of Random Series and Large Deviations** *(Fall 2025)* Delivered a 120-minute lecture in the Advanced Probability Theory Seminar, focusing on rigorous proofs of limit theorems and large deviation principles.
+* **Robustness of Multiple Knockoff Methods** *(Fall 2025)* Presented a comprehensive review of Model-X and derandomized knockoff procedures at the Weekly Statistical Seminar.
 
 ---
 
