@@ -13,7 +13,7 @@ toc: true
 
 **Innovation & Contributions**:
 
-* Identified catastrophic power collapse (Power→0) in e-value, AKO, and voting-based aggregation under Cauchy noise.
+* Identified catastrophic power collapse (Power→0) in e-value, AKO, and voting-based aggregation under Cauchy distribution.
 * Characterized the "zero-dilution effect" where signal sparsity propagates across multiple runs.
 * Proved a multiplicity-based threshold inflation theorem using Extreme Value Theory (EVT) and Hoeffding's inequality.
 * Showed that null multiplicity $(p-k\gg k)$ forces thresholds to $\mathcal{O}(np)$, suppressing signals despite matched tail indices $(1/2)$.
