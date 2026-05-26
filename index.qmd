@@ -34,7 +34,7 @@ Prior to this, I was selected for the Chu Kochen Honors College (Physics). Drive
 
 ### **Robustness of Multiple-Knockoff Aggregation Methods**
 * **Advisor:** [Prof. Lijun Wang](https://hohoweiya.xyz/), Zhejiang University. *(Sept. 2025 – Present)*
-* Identified catastrophic power collapse ($\text{Power} \to 0$) in e-value, AKO, and voting-based aggregation under Cauchy noise, characterizing the "zero-dilution effect" where signal sparsity propagates across multiple runs. Proved a multiplicity-based threshold inflation theorem using Extreme Value Theory (EVT) and Hoeffding's inequality, showing that null multiplicity $(p-k \gg k)$ forces thresholds to $\mathcal{O}(np)$. Evaluated robust statistics (LAD-Lasso, Cauchy Regression, Log-Squashing Lasso) to stabilize heavy tails via symmetric log-transforms.
+* Identified catastrophic power collapse ($\text{Power} \to 0$) in e-value, AKO, and voting-based aggregation under Cauchy distribution, characterizing the "zero-dilution effect" where signal sparsity propagates across multiple runs. Proved a multiplicity-based threshold inflation theorem using Extreme Value Theory (EVT) and Hoeffding's inequality, showing that null multiplicity $(p-k \gg k)$ forces thresholds to $\mathcal{O}(np)$. Evaluated robust statistics (LAD-Lasso, Cauchy Regression, Log-Squashing Lasso) to stabilize heavy tails via symmetric log-transforms.
 * *Status: First-author manuscript in preparation.*
 
 ### **Uncertainty Quantification via Conformal Prediction**
