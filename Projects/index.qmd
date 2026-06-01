@@ -23,7 +23,7 @@ toc: true
 ### Uncertainty Quantification via Conformal Prediction
 * **Advisor**: Prof. Guanhua Chen, UW-Madison
 * **Period**: Mar. 2026 – Present
-* **Status**: *In progress*
+* **Status**: *First-author manuscript in preparation*
 * **Keywords**: Conformal Prediction · Covariate Shift · Characteristic Function Distance · UACQR
 
 **Innovation & Contributions**:

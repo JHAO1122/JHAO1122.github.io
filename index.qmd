@@ -40,7 +40,7 @@ Prior to this, I was selected for the Chu Kochen Honors College (Physics). Drive
 ### **Uncertainty Quantification via Conformal Prediction**
 * **Advisor:** [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/), UW–Madison. *(Mar. 2026 – Present)*
 * Established a Fourier analytic framework to prove the robustness of Characteristic Function Distance (CFD) kernels under extreme covariate shift, demonstrating the stability of Laplace and Energy kernels via polynomial frequency penalization over Gaussian geometry. Integrated CFD weighting into UACQR and Split CP with Cholesky decomposition protection, successfully suppressing infinite interval rates ($5.8\% \to 2.0\%$) and identifying the "dimensionality paradox" and variance-bias trade-off in high-dimensional QRF.
-* *Status: In progress.*
+* *Status: First-author manuscript in preparation.*
 
 ---
 
