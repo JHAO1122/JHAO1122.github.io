@@ -3,6 +3,8 @@ project:
   output-dir: docs
   resources:
     - "assets/"
+filters:
+  - remove-polyfill.lua
 
 website:
   title: "Jiahao's Space"
