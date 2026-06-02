@@ -31,4 +31,7 @@ format:
     dark-mode-switch: true 
     toc: true
     number-sections: false
+    html-math-method:
+      method: mathjax
+      url: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml-full.js"
 
