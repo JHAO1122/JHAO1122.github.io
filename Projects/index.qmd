@@ -5,53 +5,67 @@ toc: true
 
 ## 🔬 Research Projects
 
-### Robustness of Multiple-Knockoff Aggregation Methods
-* **Advisor**: Prof. Lijun Wang, School of Mathematical Sciences, Zhejiang University
-* **Period**: Sept. 2025 – Present
+### Heavy-Tailed Robustness of Multiple-Knockoff Aggregation Methods
+* **Advisor**: [Prof. Lijun Wang](https://hohoweiya.xyz/), School of Mathematical Sciences, Zhejiang University
+* **Period**: Sep. 2025 – Present
 * **Status**: *First-author manuscript in preparation*
-* **Keywords**: False Discovery Rate (FDR) · Multiple Knockoffs · Heavy-tailed Distribution · Extreme Value Theory · Robust Statistics
+* **Keywords**: Model-X Knockoffs · False Discovery Rate · Multiple-Run Aggregation · Heavy-Tailed Distributions · Extreme Value Theory
 
-**Innovation & Contributions**:
+**Overview**
 
-* Identified catastrophic power collapse (Power→0) in e-value, AKO, and voting-based aggregation under Cauchy distribution.
-* Characterized the "zero-dilution effect" where signal sparsity propagates across multiple runs.
-* Proved a multiplicity-based threshold inflation theorem using Extreme Value Theory (EVT) and Hoeffding's inequality.
-* Showed that null multiplicity $(p-k\gg k)$ forces thresholds to $\mathcal{O}(np)$, suppressing signals despite matched tail indices $(1/2)$.
-* Evaluated robust statistics (LAD-Lasso, Cauchy Regression, Log-Squashing Lasso) to mitigate infinite variance.
-* Analyzed how symmetric log-transforms stabilize heavy tails while preserving ordinal signal rankings.
+This project studies the robustness of multiple-knockoff aggregation procedures under extreme heavy-tailed distributions. While aggregation is designed to improve reproducibility across randomized knockoff runs, our results show that it can amplify instability when individual runs become overly sparse or highly variable.
 
-### Uncertainty Quantification via Conformal Prediction
-* **Advisor**: Prof. Guanhua Chen, UW-Madison
+**Main Contributions**
+
+* Conducted a systematic comparison of e-value-, voting-, p-value-, and data-splitting-based knockoff aggregation methods under Gaussian, moderately heavy-tailed, and Cauchy regimes.
+* Identified a **zero-dilution mechanism** in which unstable and severely truncated single-run selections cause occasional signal discoveries to be diluted below the final aggregation threshold.
+* Developed an asymptotic explanation using regular variation, exact null sign symmetry, concentration inequalities, and Extreme Value Theory.
+* Linked the numerical dominance of null features in sparse high-dimensional settings to threshold inflation and vanishing signal-selection probabilities.
+* Investigated robust feature-importance statistics and the role of internal threshold calibration in recovering statistical power.
+
+---
+
+### Distributional Balancing Weights for Conformal Calibration under Covariate Shift
+* **Advisor**: [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/), University of Wisconsin–Madison
 * **Period**: Mar. 2026 – Present
 * **Status**: *First-author manuscript in preparation*
-* **Keywords**: Conformal Prediction · Covariate Shift · Characteristic Function Distance · UACQR
+* **Keywords**: Conformal Prediction · Covariate Shift · Distributional Balancing · Characteristic Function Distance · Fourier Analysis · UACQR
 
-**Innovation & Contributions**:
+**Overview**
 
-* Established a Fourier analytic framework to prove the robustness of Characteristic Function Distance (CFD) kernels under extreme covariate shift.
-* Demonstrated that while Gaussian geometry collapses super-polynomially on sharp interfaces, Laplace and Energy kernels maintain stability via polynomial frequency penalization.
-* Integrated CFD weighting into UACQR and Split CP, implementing a numerically stable pipeline with Cholesky decomposition protection.
-* Suppressed infinite interval rates (5.8%→2.0%).
-* Identified a "dimensionality paradox": high-dimensional QRF self-corrects for shift via feature selection, while extreme weighting collapses ESS and induces variance-bias trade-off.
+This project develops response-free distributional balancing methods for conformal calibration under covariate shift. The main idea is to reweight labeled source calibration covariates toward an unlabeled target population and use the resulting weighted score distribution to approximate target-domain calibration without requiring accurate pointwise density-ratio estimation.
+
+**Main Contributions**
+
+* Developed a **distributionally balanced conformal calibration** framework that aligns source calibration covariates with an unlabeled target sample.
+* Specialized the framework to **Characteristic Function Distance (CFD)** balancing and studied how spectral decay affects the representation of covariate-dependent conformity-score distributions.
+* Used Fourier analysis to compare Gaussian, product-Laplace, Matérn, and energy-type balancing geometries through their induced smoothness and frequency-domain behavior.
+* Implemented the weighting and calibration pipeline for **Split Conformal Prediction**, **Conformalized Quantile Regression**, **UACQR-S**, and **UACQR-P**.
+* Contributed to the technical verification and revision of a general score-distribution and approximate coverage-error bound involving residual imbalance, function-class approximation, finite target-sample uncertainty, and effective sample size.
+* Designed theory-aligned simulations evaluating coverage, interval efficiency, score-distribution error, imbalance, and weight concentration under varying overlap and score smoothness.
 
 ---
 
 ## 💻 Selected Computational Projects
 
-### C-Based CNN Forward Inference Engine
+### CNN Forward Inference Engine in C
 * **Period**: Spring 2025
-* **Tech Stack**: `C`, `Model Optimization`, `Binary I/O`
+* **Tech Stack**: `C` · `CNN Inference` · `Channel Pruning` · `Binary I/O`
 
-**Key Implementations**:
+**Project Summary**
 
-* Implemented a convolutional neural network (CNN) forward inference engine completely from scratch in C.
-* Achieved a **75% latency reduction** via rigorous channel pruning while maintaining $\sim 99\%$ classification accuracy.
+* Implemented a convolutional neural network forward-inference engine from scratch in C.
+* Built binary input and parameter-loading routines and implemented the forward computation without relying on high-level deep-learning frameworks.
+* Reduced inference latency by approximately **75%** through channel pruning while maintaining approximately **99%** classification accuracy.
 
-### Uncertainty Quantification for PDEs in Random Domains
+---
+
+### Uncertainty Quantification for PDEs on Random Domains
 * **Period**: Fall 2025
-* **Tech Stack**: `Python`, `Stochastic Galerkin`, `Karhunen-Loève Expansions`
+* **Tech Stack**: `Python` · `Stochastic Galerkin Methods` · `Karhunen–Loève Expansions` · `Polynomial Chaos`
 
-**Key Implementations**:
+**Project Summary**
 
-* Reproduced numerical solutions for elliptic Stochastic Partial Differential Equations (SPDEs) utilizing stochastic mappings.
-* Applied Legendre polynomial chaos and Karhunen-Loève expansions for robust uncertainty quantification in complex domains.
+* Reproduced numerical methods for elliptic stochastic partial differential equations defined on random domains.
+* Used stochastic mappings to transform random-domain problems into equivalent formulations on a fixed reference domain.
+* Applied Karhunen–Loève expansions and Legendre polynomial chaos to represent geometric uncertainty and propagate it through the PDE solver.
