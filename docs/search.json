@@ -18,42 +18,49 @@
     "href": "index.html",
     "title": "Jiahao Tian",
     "section": "",
-    "text": "My name is Jiahao Tian. I am an undergraduate student majoring in Statistics at the School of Mathematical Sciences, Zhejiang University (ZJU).\nPrior to this, I was selected for the Chu Kochen Honors College (Physics). Driven by a profound passion for rigorous theoretical foundations, I transferred to Statistics to pursue strict mathematical training. My coursework and self-study heavily concentrate on advanced pure mathematics and measure-theoretic probability. Currently, my research focuses on high-dimensional statistical inference, distribution-free prediction, and their theoretical robustness."
+    "text": "My name is Jiahao Tian. I am an undergraduate student majoring in Statistics at the School of Mathematical Sciences, Zhejiang University.\nMy academic interests lie at the intersection of high-dimensional inference, uncertainty quantification, and theoretical statistics. I am particularly interested in developing statistically principled methods that remain reliable under heavy-tailed distributions, covariate shift, and other forms of model misspecification.\nMy coursework includes advanced probability, mathematical statistics, real and functional analysis, stochastic processes, stochastic differential equations, and asymptotic statistics."
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "Jiahao Tian",
     "section": "",
-    "text": "My name is Jiahao Tian. I am an undergraduate student majoring in Statistics at the School of Mathematical Sciences, Zhejiang University (ZJU).\nPrior to this, I was selected for the Chu Kochen Honors College (Physics). Driven by a profound passion for rigorous theoretical foundations, I transferred to Statistics to pursue strict mathematical training. My coursework and self-study heavily concentrate on advanced pure mathematics and measure-theoretic probability. Currently, my research focuses on high-dimensional statistical inference, distribution-free prediction, and their theoretical robustness."
+    "text": "My name is Jiahao Tian. I am an undergraduate student majoring in Statistics at the School of Mathematical Sciences, Zhejiang University.\nMy academic interests lie at the intersection of high-dimensional inference, uncertainty quantification, and theoretical statistics. I am particularly interested in developing statistically principled methods that remain reliable under heavy-tailed distributions, covariate shift, and other forms of model misspecification.\nMy coursework includes advanced probability, mathematical statistics, real and functional analysis, stochastic processes, stochastic differential equations, and asymptotic statistics."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Jiahao Tian",
+    "section": "🎓 Education",
+    "text": "🎓 Education\nZhejiang University, B.S. in Statistics\nSchool of Mathematical Sciences, Aug. 2023 – Jun. 2027 (expected)\nSelected coursework: Probability Theory, Mathematical Statistics, Stochastic Processes, Real Analysis, Functional Analysis, Stochastic Differential Equations, and Asymptotic Statistics."
   },
   {
     "objectID": "index.html#research-interests",
     "href": "index.html#research-interests",
     "title": "Jiahao Tian",
     "section": "🔍 Research Interests",
-    "text": "🔍 Research Interests\n\nCore: High-Dimensional Statistical Inference, Conformal Prediction, Statistical Learning.\nExtended: Stochastic Analysis, Bayesian Inference, Quantitative Finance."
+    "text": "🔍 Research Interests\n\nHigh-Dimensional Statistical Inference\nMultiple Testing and False Discovery Rate Control\nConformal Prediction and Uncertainty Quantification\nDistribution Shift and Robust Statistics"
   },
   {
     "objectID": "index.html#research-experience",
     "href": "index.html#research-experience",
     "title": "Jiahao Tian",
     "section": "🛰️ Research Experience",
-    "text": "🛰️ Research Experience\n\nRobustness of Multiple-Knockoff Aggregation Methods\n\nAdvisor: Prof. Lijun Wang, Zhejiang University. (Sept. 2025 – Present)\nIdentified catastrophic power collapse (\\(\\text{Power} \\to 0\\)) in e-value, AKO, and voting-based aggregation under Cauchy distribution, characterizing the “zero-dilution effect” where signal sparsity propagates across multiple runs. Proved a multiplicity-based threshold inflation theorem using Extreme Value Theory (EVT) and Hoeffding’s inequality, showing that null multiplicity \\((p-k \\gg k)\\) forces thresholds to \\(\\mathcal{O}(np)\\). Evaluated robust statistics (LAD-Lasso, Cauchy Regression, Log-Squashing Lasso) to stabilize heavy tails via symmetric log-transforms.\nStatus: First-author manuscript in preparation.\n\n\n\nUncertainty Quantification via Conformal Prediction\n\nAdvisor: Prof. Guanhua Chen, UW–Madison. (Mar. 2026 – Present)\nEstablished a Fourier analytic framework to prove the robustness of Characteristic Function Distance (CFD) kernels under extreme covariate shift, demonstrating the stability of Laplace and Energy kernels via polynomial frequency penalization over Gaussian geometry. Integrated CFD weighting into UACQR and Split CP with Cholesky decomposition protection, successfully suppressing infinite interval rates (\\(5.8\\% \\to 2.0\\%\\)) and identifying the “dimensionality paradox” and variance-bias trade-off in high-dimensional QRF.\nStatus: First-author manuscript in preparation."
+    "text": "🛰️ Research Experience\n\nHeavy-Tailed Robustness of Multiple-Knockoff Aggregation Methods\n\nAdvisor: Prof. Lijun Wang, Zhejiang University. (Sep. 2025 – Present)\nConducted a systematic robustness study of e-value-, voting-, p-value-, and data-splitting-based knockoff aggregation methods under Gaussian, moderately heavy-tailed, and Cauchy regimes.\nIdentified a zero-dilution mechanism in which unstable and severely truncated single-run selections cause occasional signal discoveries to be diluted below the final aggregation threshold.\nDeveloped an asymptotic explanation using regular variation, exact null sign symmetry, concentration inequalities, and Extreme Value Theory, linking multiplicity-driven threshold inflation to vanishing signal-selection probabilities in sparse high-dimensional regimes.\nInvestigated robust feature statistics and efficient calibration of the internal knockoff threshold.\nStatus: First-author manuscript in preparation.\n\n\n\nDistributional Balancing Weights for Conformal Calibration under Covariate Shift\n\nAdvisor: Prof. Guanhua Chen, UW–Madison. (Mar. 2026 – Present)\nDeveloped a distributionally balanced conformal calibration framework that uses response-free weights to align source calibration covariates with an unlabeled target sample.\nSpecialized the framework to Characteristic Function Distance (CFD) balancing and used Fourier analysis to study how spectral decay affects the representation of covariate-dependent conformity-score distributions.\nImplemented the method for Split Conformal Prediction, CQR, UACQR-S, and UACQR-P.\nContributed to the technical verification and revision of a general score-distribution and approximate coverage-error bound involving residual imbalance, function-class approximation, finite target-sample uncertainty, and effective sample size.\nDesigned theory-aligned simulations examining coverage, interval efficiency, score-distribution error, imbalance, and weight concentration under varying overlap and score smoothness.\nStatus: First-author manuscript in preparation."
   },
   {
     "objectID": "index.html#academic-talks",
     "href": "index.html#academic-talks",
     "title": "Jiahao Tian",
     "section": "🎤 Academic Talks",
-    "text": "🎤 Academic Talks\n\nConvergence of Random Series and Large Deviations (Fall 2025) Delivered a 120-minute lecture in the Advanced Probability Theory Seminar, focusing on rigorous proofs of limit theorems and large deviation principles.\nRobustness of Multiple Knockoff Methods (Fall 2025) Presented a comprehensive review of Model-X and derandomized knockoff procedures at the Weekly Statistical Seminar."
+    "text": "🎤 Academic Talks\n\nConvergence of Random Series and Large Deviations\nAdvanced Probability Theory Seminar, Zhejiang University, Fall 2025.\nPresented convergence criteria for random series and core ideas in large deviation theory.\nRobustness of Multiple Knockoff Methods\nStatistics Seminar, Zhejiang University, Fall 2025.\nPresented Model-X knockoffs, multiple-run aggregation methods, and their behavior under heavy-tailed distributions.\nTitle of Talk\nTopics in Stochastic Analysis Seminar, Zhejiang University, Fall 2026."
   },
   {
     "objectID": "index.html#academic-garden",
     "href": "index.html#academic-garden",
     "title": "Jiahao Tian",
     "section": "📚 Academic Garden",
-    "text": "📚 Academic Garden\nBeyond my research, I maintain a detailed, open-source collection of course notes and rigorous mathematical derivations (e.g., Stochastic Differential Equations, Asymptotic Statistics)."
+    "text": "📚 Academic Garden\nI maintain an open collection of course notes, seminar materials, and mathematical derivations covering topics such as stochastic differential equations, real and functional analysis, asymptotic statistics, large deviations, and statistical learning.\nSelected notes:\n\nStochastic Differential Equations\nAsymptotic Statistics\nLarge Deviations"
   },
   {
     "objectID": "index.html#connection",
