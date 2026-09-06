@@ -2,6 +2,7 @@
 title: "Jiahao Tian"
 toc: false
 page-layout: article
+body-classes: home-page
 ---
 
 :::: {.home-hero}
@@ -34,7 +35,7 @@ heavy-tailed distributions, and other forms of model misspecification.
 [CV](assets/Curriculum_Vitae.pdf) ·
 [GitHub](https://github.com/jhao1122) ·
 [LinkedIn](https://www.linkedin.com/in/jiahao-tian-a8b146399/) ·
-[ORCID](https://orcid.org/0009-0001-9508-1477) ·
+[ORCID](https://orcid.org/0009-0001-9508-1477)
 :::
 
 ::::

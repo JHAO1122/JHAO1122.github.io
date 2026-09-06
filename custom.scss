@@ -238,3 +238,54 @@ body.quarto-dark .profile-photo img {
     margin-top: 2.8rem;
   }
 }
+
+/* 导航栏内容与正文区域对齐 */
+
+.navbar-container {
+  width: calc(100% - 3rem);
+  max-width: 1560px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* 左侧姓名 */
+
+.navbar-brand {
+  color: var(--academic-text);
+  font-size: 1.03rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.navbar-brand:hover {
+  color: var(--academic-blue);
+  text-decoration: none;
+}
+
+
+/* 首页隐藏姓名，其他页面正常显示 */
+
+body.home-page .navbar-brand {
+  display: none;
+}
+
+
+/* 深色模式 */
+
+body.quarto-dark .navbar-brand {
+  color: #eeeeee;
+}
+
+body.quarto-dark .navbar-brand:hover {
+  color: #7cb9e8;
+}
+
+
+/* 窄屏时恢复正常边距 */
+
+@media (max-width: 768px) {
+  .navbar-container {
+    width: calc(100% - 1.5rem);
+  }
+}

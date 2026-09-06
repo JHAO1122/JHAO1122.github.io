@@ -13,7 +13,7 @@ website:
   google-analytics: "G-MPD6ZGWYW1"
 
   navbar:
-    title: false
+    title: "Jiahao Tian"
     pinned: true
     right:
       - href: index.qmd
@@ -26,7 +26,7 @@ website:
         text: Teaching
       - href: https://jhao1122.github.io/Notes/
         text: Notes
-        
+
   page-footer:
     border: false
     left: "© 2026 Jiahao Tian"
