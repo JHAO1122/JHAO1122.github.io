@@ -1,39 +1,97 @@
+# project:
+#   type: website
+#   output-dir: docs
+#   resources:
+#     - "assets/"
+# filters:
+#   - remove-polyfill.lua
+
+# website:
+#   title: "Jiahao's Space"
+#   google-analytics: "G-MPD6ZGWYW1"
+#   navbar:
+#     left:
+#       - href: index.qmd
+#         text: Home
+#       - href: Projects/index.qmd
+#         text: Projects
+#       - href: Talks/index.qmd
+#         text: Talks
+#       - href: Teaching/index.qmd
+#         text: Teaching
+#       - href: https://jhao1122.github.io/Notes/
+#         text: "Academic Notes"
+#   page-footer:
+#     left: "© 2026 Jiahao Tian"
+#     right: "Força Barça! 🔵🔴"
+
+# format:
+#   html:
+#     theme:
+#       light: [flatly, custom.scss]
+#       dark: [darkly, custom.scss]
+#     dark-mode-switch: true 
+#     toc: true
+#     number-sections: false
+#     html-math-method:
+#       method: mathjax
+#       url: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml-full.js"
+
+
+
 project:
   type: website
   output-dir: docs
   resources:
     - "assets/"
+
 filters:
   - remove-polyfill.lua
 
 website:
-  title: "Jiahao's Space"
-  google-analytics: "G-MPD6ZGWYW1"
+  title: "Jiahao Tian"
+  site-url: "https://jhao1122.github.io"
+
   navbar:
+    pinned: true
     left:
       - href: index.qmd
         text: Home
       - href: Projects/index.qmd
-        text: Projects
+        text: Research
       - href: Talks/index.qmd
         text: Talks
       - href: Teaching/index.qmd
         text: Teaching
       - href: https://jhao1122.github.io/Notes/
-        text: "Academic Notes"
+        text: Notes
+
+    right:
+      - icon: github
+        href: https://github.com/jhao1122
+        aria-label: GitHub
+      - icon: file-pdf
+        href: assets/Curriculum_Vitae.pdf
+        aria-label: CV
+
   page-footer:
+    border: true
     left: "© 2026 Jiahao Tian"
     right: "Força Barça! 🔵🔴"
+
+  back-to-top-navigation: true
 
 format:
   html:
     theme:
-      light: [flatly, custom.scss]
+      light: [litera, custom.scss]
       dark: [darkly, custom.scss]
-    dark-mode-switch: true 
+    dark-mode-switch: true
     toc: true
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
     number-sections: false
     html-math-method:
       method: mathjax
       url: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml-full.js"
-

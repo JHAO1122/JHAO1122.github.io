@@ -1,13 +1,167 @@
+// /*-- scss:defaults --*/
+// // 定义求是蓝核心配色
+// $zju-blue: #003d7c;
+// $link-color: $zju-blue;
+// $navbar-bg: #ffffff;
+// $navbar-fg: $zju-blue;
+
+// /*-- scss:rules --*/
+// // 标题加粗并统一配色
+// h1, h2, h3 {
+//   color: $zju-blue;
+//   font-weight: 700;
+// }
+
 /*-- scss:defaults --*/
-// 定义求是蓝核心配色
-$zju-blue: #003d7c;
-$link-color: $zju-blue;
-$navbar-bg: #ffffff;
-$navbar-fg: $zju-blue;
+
+$font-family-sans-serif:
+  Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Helvetica, Arial, sans-serif;
+
+$headings-font-family:
+  Georgia, "Times New Roman", serif;
+
+$headings-font-weight: 650;
+
+$link-decoration: none;
+$border-radius: 0.6rem;
+
 
 /*-- scss:rules --*/
-// 标题加粗并统一配色
+
+:root {
+  --zju-blue: #003d7c;
+  --zju-blue-light: #256aa5;
+}
+
+body.quarto-light {
+  --page-accent: #003d7c;
+  --page-muted: #667085;
+  --page-surface: #f6f8fb;
+  --page-border: #dde4ec;
+}
+
+body.quarto-dark {
+  --page-accent: #78b7ed;
+  --page-muted: #aeb8c4;
+  --page-surface: #20252b;
+  --page-border: #38414a;
+}
+
+
+/* Navbar */
+
+.navbar {
+  border-bottom: 1px solid var(--page-border);
+  box-shadow: none;
+}
+
+.quarto-light .navbar {
+  background-color: rgba(255, 255, 255, 0.96);
+}
+
+.quarto-dark .navbar {
+  background-color: rgba(25, 29, 33, 0.96);
+}
+
+.navbar-title {
+  font-weight: 650;
+  letter-spacing: -0.015em;
+}
+
+
+/* Page typography */
+
+body {
+  line-height: 1.7;
+}
+
 h1, h2, h3 {
-  color: $zju-blue;
-  font-weight: 700;
+  color: var(--page-accent);
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  font-size: clamp(2.1rem, 5vw, 3.2rem);
+}
+
+h2 {
+  margin-top: 2.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--page-border);
+}
+
+p {
+  max-width: 76ch;
+}
+
+
+/* Profile */
+
+.about-entity .about-image {
+  border: 4px solid var(--page-border);
+  box-shadow: 0 12px 32px rgba(0, 40, 80, 0.14);
+}
+
+.about-entity .about-link {
+  border-color: var(--page-border);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.about-entity .about-link:hover {
+  color: var(--page-accent);
+  border-color: var(--page-accent);
+  transform: translateY(-1px);
+}
+
+
+/* Research cards */
+
+.research-card {
+  height: 100%;
+  padding: 1.35rem 1.45rem;
+  background: var(--page-surface);
+  border: 1px solid var(--page-border);
+  border-radius: 0.8rem;
+}
+
+.research-card h3 {
+  margin-top: 0;
+  font-family: inherit;
+  font-size: 1.08rem;
+}
+
+.research-card p {
+  font-size: 0.96rem;
+}
+
+.research-meta {
+  color: var(--page-muted);
+  font-size: 0.88rem;
+}
+
+
+/* Footer */
+
+.nav-footer {
+  margin-top: 4rem;
+  color: var(--page-muted);
+  font-size: 0.9rem;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  body {
+    line-height: 1.65;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .research-card {
+    padding: 1.1rem;
+  }
 }

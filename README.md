@@ -16,9 +16,3 @@ This repository contains the source code for my personal academic website, built
 * `Teaching/`: Pages for my teaching experiences.
 * `_quarto.yml`: Global configuration file for navigation and site styling.
 * `assets/`: Static assets including my CV (`Curriculum_Vitae.pdf`) and profile picture.
-
----
-
-## 📄 License
-
-The source code for the website's structure and styling is available for reference. However, all personal content, including my CV, profile image, project descriptions, and academic notes, are copyrighted. Please do not repurpose my personal information or academic work for your own use without permission.

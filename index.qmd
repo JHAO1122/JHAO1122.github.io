@@ -1,21 +1,95 @@
 ---
 title: "Jiahao Tian"
+subtitle: "Statistics · Zhejiang University"
+toc: false
+page-layout: full
+
 about:
-  template: trestles
-  image: profile.jpeg  
+  template: jolla
+  image: profile.jpeg
+  image-shape: round
   links:
     - icon: envelope
       text: Email
       href: mailto:jiahaot1122@gmail.com
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/jhao1122
     - icon: file-pdf
       text: CV
       href: assets/Curriculum_Vitae.pdf
 ---
 
-## 👋 Welcome!
+I am an undergraduate student in Statistics at Zhejiang University.
+
+My research interests lie in **high-dimensional inference**,
+**uncertainty quantification**, and **robust statistics**. I am
+particularly interested in statistically principled methods that remain
+reliable under distribution shift, heavy-tailed distributions, and model
+misspecification.
+
+## Research
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.research-card}
+### Conformal calibration under covariate shift
+
+Developing distributional balancing methods for conformal prediction,
+with theoretical guarantees based on Fourier analysis and RKHS tools.
+
+<p class="research-meta">
+With Prof. Guanhua Chen · UW–Madison
+</p>
+
+[View project →](Projects/conformal.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.research-card}
+### Robust multiple-knockoff aggregation
+
+Studying the behavior of aggregated knockoff procedures under
+heavy-tailed distributions and high-dimensional regimes.
+
+<p class="research-meta">
+With Prof. Lijun Wang · Zhejiang University
+</p>
+
+[View project →](Projects/knockoff.qmd)
+:::
+:::
+
+::::
+
+## Research Interests
+
+- High-dimensional statistical inference
+- Conformal prediction and uncertainty quantification
+- Multiple testing and false discovery rate control
+- Distribution shift and robust statistics
+
+## Selected Talks
+
+- **Robustness of Multiple Knockoff Methods**  
+  Statistics Seminar, Zhejiang University, 2025.
+
+- **Convergence of Random Series and Large Deviations**  
+  Advanced Probability Theory Seminar, Zhejiang University, 2025.
+
+[See all talks →](Talks/index.qmd)
+
+## Notes
+
+I maintain an open collection of notes on probability, statistics,
+analysis, and stochastic processes.
+
+[Visit Academic Notes →](https://jhao1122.github.io/Notes/)
+
+
+<!-- ## 👋 Welcome!
 
 My name is **Jiahao Tian**. I am an undergraduate student majoring in Statistics at the [School of Mathematical Sciences](http://www.math.zju.edu.cn), **Zhejiang University**.
 
@@ -98,4 +172,4 @@ Selected notes:
 ## 📮 Connection
 I am always open to academic discussions and collaborations. 
 
-* **Email:** [jiahaot1122@gmail.com](mailto:jiahaot1122@gmail.com) / [3230105412@zju.edu.cn](mailto:3230105412@zju.edu.cn)
+* **Email:** [jiahaot1122@gmail.com](mailto:jiahaot1122@gmail.com) / [3230105412@zju.edu.cn](mailto:3230105412@zju.edu.cn) -->
