@@ -264,12 +264,12 @@ body.quarto-dark .profile-photo img {
 }
 
 
-/* 首页隐藏姓名，其他页面正常显示 */
+/* 首页隐藏导航栏左侧姓名 */
 
+body.home-page .navbar-brand-container,
 body.home-page .navbar-brand {
-  display: none;
+  display: none !important;
 }
-
 
 /* 深色模式 */
 

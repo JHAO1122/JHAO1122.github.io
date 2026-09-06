@@ -2,7 +2,10 @@
 title: "Jiahao Tian"
 toc: false
 page-layout: article
-body-classes: home-page
+
+format:
+  html:
+    body-classes: home-page
 ---
 
 :::: {.home-hero}
