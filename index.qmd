@@ -21,70 +21,20 @@ statistics**. I am particularly interested in developing statistically
 principled methods that remain reliable under distribution shift,
 heavy-tailed distributions, and other forms of model misspecification.
 
-I am currently working on conformal prediction under covariate shift
-and robust multiple-knockoff aggregation.
+### Research Interests
+
+- High-dimensional statistical inference
+- Conformal prediction and uncertainty quantification
+- Multiple testing and false discovery rate control
+- Distribution shift and robust statistics
 
 ::: {.profile-links}
 [Email](mailto:jiahaot1122@gmail.com) ·
+[CV](assets/Curriculum_Vitae.pdf) ·
 [GitHub](https://github.com/jhao1122) ·
-[CV](assets/Curriculum_Vitae.pdf)
+[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-ID/) ·
+[ORCID](https://orcid.org/YOUR-ORCID-ID) ·
+[OpenReview](https://openreview.net/profile?id=YOUR-OPENREVIEW-ID)
 :::
 
 ::::
-
-## Research Interests
-
-- High-Dimensional Statistical Inference
-- Multiple Testing and False Discovery Rate Control
-- Conformal Prediction and Uncertainty Quantification
-- Distribution Shift and Robust Statistics
-
-## Research
-
-### Heavy-Tailed Robustness of Multiple-Knockoff Aggregation Methods
-
-**Advisor:** [Prof. Lijun Wang](https://hohoweiya.xyz/), Zhejiang University  
-*September 2025–Present*
-
-I study the robustness of multiple-knockoff aggregation procedures under
-heavy-tailed distributions, with particular attention to selection
-instability, signal dilution, and threshold inflation.
-
-[More about this project →](Projects/index.qmd)
-
-### Distributional Balancing Weights for Conformal Calibration under Covariate Shift
-
-**Advisor:** [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/),
-UW–Madison  
-*March 2026–Present*
-
-I develop distributional balancing methods for conformal prediction
-under covariate shift, using tools from Fourier analysis, RKHS theory,
-and empirical process theory.
-
-[More about this project →](Projects/index.qmd)
-
-## Selected Talks
-
-- **Robustness of Multiple Knockoff Methods**  
-  Statistics Seminar, Zhejiang University, 2025.
-
-- **Convergence of Random Series and Large Deviations**  
-  Advanced Probability Theory Seminar, Zhejiang University, 2025.
-
-[All talks →](Talks/index.qmd)
-
-## Academic Notes
-
-I maintain an open collection of notes on probability, statistics,
-analysis, and stochastic processes.
-
-[Visit Academic Notes →](https://jhao1122.github.io/Notes/)
-
-## Contact
-
-I am always open to academic discussions and collaborations.
-
-Email:
-[jiahaot1122@gmail.com](mailto:jiahaot1122@gmail.com) ·
-[3230105412@zju.edu.cn](mailto:3230105412@zju.edu.cn)
