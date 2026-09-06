@@ -23,18 +23,18 @@ heavy-tailed distributions, and other forms of model misspecification.
 
 ### Research Interests
 
-- High-dimensional statistical inference
+- High-dimensional statistical inference and Multiple testing
 - Conformal prediction and uncertainty quantification
-- Multiple testing and false discovery rate control
 - Distribution shift and robust statistics
+- Optimization and statistical learning
+
 
 ::: {.profile-links}
-[Email](mailto:jiahaot1122@gmail.com) ·
+[Email](mailto:jhtian1122@outlook.com) ·
 [CV](assets/Curriculum_Vitae.pdf) ·
 [GitHub](https://github.com/jhao1122) ·
-[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-ID/) ·
-[ORCID](https://orcid.org/YOUR-ORCID-ID) ·
-[OpenReview](https://openreview.net/profile?id=YOUR-OPENREVIEW-ID)
+[LinkedIn](https://www.linkedin.com/in/jiahao-tian-a8b146399/) ·
+[ORCID](https://orcid.org/0009-0001-9508-1477) ·
 :::
 
 ::::

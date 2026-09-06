@@ -26,9 +26,7 @@ website:
         text: Teaching
       - href: https://jhao1122.github.io/Notes/
         text: Notes
-      - href: assets/Curriculum_Vitae.pdf
-        text: CV
-
+        
   page-footer:
     border: false
     left: "© 2026 Jiahao Tian"
