@@ -1,13 +1,14 @@
 ---
 title: "Jiahao Tian"
-subtitle: "Statistics · Zhejiang University"
 toc: false
-page-layout: full
+page-layout: article
 
 about:
-  template: jolla
+  id: profile
+  template: broadside
   image: profile.jpeg
-  image-shape: round
+  image-width: 15em
+  image-alt: "Jiahao Tian"
   links:
     - icon: envelope
       text: Email
@@ -20,49 +21,22 @@ about:
       href: assets/Curriculum_Vitae.pdf
 ---
 
-I am an undergraduate student in Statistics at Zhejiang University.
+:::{#profile}
+
+I am an undergraduate student majoring in **Statistics** at the
+[School of Mathematical Sciences](http://www.math.zju.edu.cn),
+**Zhejiang University**.
 
 My research interests lie in **high-dimensional inference**,
-**uncertainty quantification**, and **robust statistics**. I am
-particularly interested in statistically principled methods that remain
-reliable under distribution shift, heavy-tailed distributions, and model
-misspecification.
+**uncertainty quantification**, and **theoretical statistics**. I am
+particularly interested in developing statistically principled methods
+that remain reliable under distribution shift, heavy-tailed
+distributions, and model misspecification.
 
-## Research
+I am currently working on conformal prediction under covariate shift
+and robust multiple-knockoff aggregation.
 
-:::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-::: {.research-card}
-### Conformal calibration under covariate shift
-
-Developing distributional balancing methods for conformal prediction,
-with theoretical guarantees based on Fourier analysis and RKHS tools.
-
-<p class="research-meta">
-With Prof. Guanhua Chen · UW–Madison
-</p>
-
-[View project →](Projects/conformal.qmd)
 :::
-:::
-
-::: {.g-col-12 .g-col-md-6}
-::: {.research-card}
-### Robust multiple-knockoff aggregation
-
-Studying the behavior of aggregated knockoff procedures under
-heavy-tailed distributions and high-dimensional regimes.
-
-<p class="research-meta">
-With Prof. Lijun Wang · Zhejiang University
-</p>
-
-[View project →](Projects/knockoff.qmd)
-:::
-:::
-
-::::
 
 ## Research Interests
 
@@ -70,6 +44,29 @@ With Prof. Lijun Wang · Zhejiang University
 - Conformal prediction and uncertainty quantification
 - Multiple testing and false discovery rate control
 - Distribution shift and robust statistics
+
+## Research
+
+### Heavy-Tailed Robustness of Multiple-Knockoff Aggregation Methods
+
+**With [Prof. Lijun Wang](https://hohoweiya.xyz/), Zhejiang University**
+
+I study the robustness of multiple-knockoff aggregation procedures
+under heavy-tailed distributions, with particular attention to
+selection instability and threshold inflation.
+
+[More about this project →](Projects/index.qmd)
+
+### Distributional Balancing Weights for Conformal Calibration
+
+**With [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/),
+UW–Madison**
+
+I develop distributional balancing methods for conformal prediction
+under covariate shift, using tools from Fourier analysis, RKHS theory,
+and empirical process theory.
+
+[More about this project →](Projects/index.qmd)
 
 ## Selected Talks
 
@@ -79,9 +76,9 @@ With Prof. Lijun Wang · Zhejiang University
 - **Convergence of Random Series and Large Deviations**  
   Advanced Probability Theory Seminar, Zhejiang University, 2025.
 
-[See all talks →](Talks/index.qmd)
+[All talks →](Talks/index.qmd)
 
-## Notes
+## Academic Notes
 
 I maintain an open collection of notes on probability, statistics,
 analysis, and stochastic processes.

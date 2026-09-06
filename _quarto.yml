@@ -50,7 +50,6 @@ filters:
 
 website:
   title: "Jiahao Tian"
-  site-url: "https://jhao1122.github.io"
 
   navbar:
     pinned: true
@@ -84,14 +83,9 @@ website:
 format:
   html:
     theme:
-      light: [litera, custom.scss]
+      light: [cosmo, custom.scss]
       dark: [darkly, custom.scss]
     dark-mode-switch: true
     toc: true
     toc-depth: 2
-    smooth-scroll: true
-    link-external-newwindow: true
     number-sections: false
-    html-math-method:
-      method: mathjax
-      url: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml-full.js"

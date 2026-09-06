@@ -32,14 +32,7 @@
     "href": "index.html",
     "title": "Jiahao Tian",
     "section": "",
-    "text": "I am an undergraduate student in Statistics at Zhejiang University.\nMy research interests lie in high-dimensional inference, uncertainty quantification, and robust statistics. I am particularly interested in statistically principled methods that remain reliable under distribution shift, heavy-tailed distributions, and model misspecification."
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Jiahao Tian",
-    "section": "Research",
-    "text": "Research\n\n\n\nConformal calibration under covariate shift\nDeveloping distributional balancing methods for conformal prediction, with theoretical guarantees based on Fourier analysis and RKHS tools.\n\nWith Prof. Guanhua Chen · UW–Madison\n\nView project →\n\n\n\n\nRobust multiple-knockoff aggregation\nStudying the behavior of aggregated knockoff procedures under heavy-tailed distributions and high-dimensional regimes.\n\nWith Prof. Lijun Wang · Zhejiang University\n\nView project →"
+    "text": "I am an undergraduate student majoring in Statistics at the School of Mathematical Sciences, Zhejiang University.\nMy research interests lie in high-dimensional inference, uncertainty quantification, and theoretical statistics. I am particularly interested in developing statistically principled methods that remain reliable under distribution shift, heavy-tailed distributions, and model misspecification.\nI am currently working on conformal prediction under covariate shift and robust multiple-knockoff aggregation.\n\n  \n  \n  \n    \n     Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     CV"
   },
   {
     "objectID": "index.html#research-interests",
@@ -49,18 +42,25 @@
     "text": "Research Interests\n\nHigh-dimensional statistical inference\nConformal prediction and uncertainty quantification\nMultiple testing and false discovery rate control\nDistribution shift and robust statistics"
   },
   {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Jiahao Tian",
+    "section": "Research",
+    "text": "Research\n\nHeavy-Tailed Robustness of Multiple-Knockoff Aggregation Methods\nWith Prof. Lijun Wang, Zhejiang University\nI study the robustness of multiple-knockoff aggregation procedures under heavy-tailed distributions, with particular attention to selection instability and threshold inflation.\nMore about this project →\n\n\nDistributional Balancing Weights for Conformal Calibration\nWith Prof. Guanhua Chen, UW–Madison\nI develop distributional balancing methods for conformal prediction under covariate shift, using tools from Fourier analysis, RKHS theory, and empirical process theory.\nMore about this project →"
+  },
+  {
     "objectID": "index.html#selected-talks",
     "href": "index.html#selected-talks",
     "title": "Jiahao Tian",
     "section": "Selected Talks",
-    "text": "Selected Talks\n\nRobustness of Multiple Knockoff Methods\nStatistics Seminar, Zhejiang University, 2025.\nConvergence of Random Series and Large Deviations\nAdvanced Probability Theory Seminar, Zhejiang University, 2025.\n\nSee all talks →"
+    "text": "Selected Talks\n\nRobustness of Multiple Knockoff Methods\nStatistics Seminar, Zhejiang University, 2025.\nConvergence of Random Series and Large Deviations\nAdvanced Probability Theory Seminar, Zhejiang University, 2025.\n\nAll talks →"
   },
   {
-    "objectID": "index.html#notes",
-    "href": "index.html#notes",
+    "objectID": "index.html#academic-notes",
+    "href": "index.html#academic-notes",
     "title": "Jiahao Tian",
-    "section": "Notes",
-    "text": "Notes\nI maintain an open collection of notes on probability, statistics, analysis, and stochastic processes.\nVisit Academic Notes →"
+    "section": "Academic Notes",
+    "text": "Academic Notes\nI maintain an open collection of notes on probability, statistics, analysis, and stochastic processes.\nVisit Academic Notes →"
   },
   {
     "objectID": "Projects/index.html",
