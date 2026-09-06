@@ -2,65 +2,61 @@
 title: "Jiahao Tian"
 toc: false
 page-layout: article
-
-about:
-  id: profile
-  template: broadside
-  image: profile.jpeg
-  image-width: 15em
-  image-alt: "Jiahao Tian"
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:jiahaot1122@gmail.com
-    - icon: github
-      text: GitHub
-      href: https://github.com/jhao1122
-    - icon: file-pdf
-      text: CV
-      href: assets/Curriculum_Vitae.pdf
 ---
 
-:::{#profile}
+:::: {.home-hero}
 
-I am an undergraduate student majoring in **Statistics** at the
+::: {.profile-photo}
+![](profile.jpeg){alt="Jiahao Tian"}
+:::
+
+Hi! My name is **Jiahao Tian**. I am an undergraduate student majoring
+in Statistics at the
 [School of Mathematical Sciences](http://www.math.zju.edu.cn),
 **Zhejiang University**.
 
-My research interests lie in **high-dimensional inference**,
-**uncertainty quantification**, and **theoretical statistics**. I am
-particularly interested in developing statistically principled methods
-that remain reliable under distribution shift, heavy-tailed
-distributions, and model misspecification.
+My research interests lie at the intersection of **high-dimensional
+inference**, **uncertainty quantification**, and **theoretical
+statistics**. I am particularly interested in developing statistically
+principled methods that remain reliable under distribution shift,
+heavy-tailed distributions, and other forms of model misspecification.
 
 I am currently working on conformal prediction under covariate shift
 and robust multiple-knockoff aggregation.
 
+::: {.profile-links}
+[Email](mailto:jiahaot1122@gmail.com) ·
+[GitHub](https://github.com/jhao1122) ·
+[CV](assets/Curriculum_Vitae.pdf)
 :::
+
+::::
 
 ## Research Interests
 
-- High-dimensional statistical inference
-- Conformal prediction and uncertainty quantification
-- Multiple testing and false discovery rate control
-- Distribution shift and robust statistics
+- High-Dimensional Statistical Inference
+- Multiple Testing and False Discovery Rate Control
+- Conformal Prediction and Uncertainty Quantification
+- Distribution Shift and Robust Statistics
 
 ## Research
 
 ### Heavy-Tailed Robustness of Multiple-Knockoff Aggregation Methods
 
-**With [Prof. Lijun Wang](https://hohoweiya.xyz/), Zhejiang University**
+**Advisor:** [Prof. Lijun Wang](https://hohoweiya.xyz/), Zhejiang University  
+*September 2025–Present*
 
-I study the robustness of multiple-knockoff aggregation procedures
-under heavy-tailed distributions, with particular attention to
-selection instability and threshold inflation.
+I study the robustness of multiple-knockoff aggregation procedures under
+heavy-tailed distributions, with particular attention to selection
+instability, signal dilution, and threshold inflation.
 
 [More about this project →](Projects/index.qmd)
 
-### Distributional Balancing Weights for Conformal Calibration
+### Distributional Balancing Weights for Conformal Calibration under Covariate Shift
 
-**With [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/),
-UW–Madison**
+**Advisor:** [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/),
+UW–Madison  
+*March 2026–Present*
 
 I develop distributional balancing methods for conformal prediction
 under covariate shift, using tools from Fourier analysis, RKHS theory,
@@ -85,88 +81,10 @@ analysis, and stochastic processes.
 
 [Visit Academic Notes →](https://jhao1122.github.io/Notes/)
 
+## Contact
 
-<!-- ## 👋 Welcome!
+I am always open to academic discussions and collaborations.
 
-My name is **Jiahao Tian**. I am an undergraduate student majoring in Statistics at the [School of Mathematical Sciences](http://www.math.zju.edu.cn), **Zhejiang University**.
-
-My academic interests lie at the intersection of high-dimensional inference, uncertainty quantification, and theoretical statistics. I am particularly interested in developing statistically principled methods that remain reliable under heavy-tailed distributions, covariate shift, and other forms of model misspecification.
-
-My coursework includes advanced probability, mathematical statistics, real and functional analysis, stochastic processes, stochastic differential equations, and asymptotic statistics.
-
----
-
-## 🎓 Education
-
-**Zhejiang University**, B.S. in Statistics  
-School of Mathematical Sciences, Aug. 2023 – Jun. 2027 (expected)
-
-Selected coursework: Probability Theory, Mathematical Statistics, Stochastic Processes, Real Analysis, Functional Analysis, Stochastic Differential Equations, and Asymptotic Statistics.
-
----
-
-## 🔍 Research Interests
-
-* High-Dimensional Statistical Inference
-* Multiple Testing and False Discovery Rate Control
-* Conformal Prediction and Uncertainty Quantification
-* Distribution Shift and Robust Statistics
-
----
-
-## 🛰️ [Research Experience](Projects/index.qmd)
-
-### **Heavy-Tailed Robustness of Multiple-Knockoff Aggregation Methods**
-* **Advisor:** [Prof. Lijun Wang](https://hohoweiya.xyz/), Zhejiang University. *(Sep. 2025 – Present)*
-
-* Conducted a systematic robustness study of e-value-, voting-, p-value-, and data-splitting-based knockoff aggregation methods under Gaussian, moderately heavy-tailed, and Cauchy regimes.
-* Identified a **zero-dilution mechanism** in which unstable and severely truncated single-run selections cause occasional signal discoveries to be diluted below the final aggregation threshold.
-* Developed an asymptotic explanation using regular variation, exact null sign symmetry, concentration inequalities, and Extreme Value Theory, linking multiplicity-driven threshold inflation to vanishing signal-selection probabilities in sparse high-dimensional regimes.
-* Investigated robust feature statistics and efficient calibration of the internal knockoff threshold.
-
-* *Status: First-author manuscript in preparation.*
-
-### **Distributional Balancing Weights for Conformal Calibration under Covariate Shift**
-* **Advisor:** [Prof. Guanhua Chen](https://sites.google.com/view/gchenwisc/), UW–Madison. *(Mar. 2026 – Present)*
-
-* Developed a distributionally balanced conformal calibration framework that uses response-free weights to align source calibration covariates with an unlabeled target sample.
-* Specialized the framework to **Characteristic Function Distance (CFD)** balancing and used Fourier analysis to study how spectral decay affects the representation of covariate-dependent conformity-score distributions.
-* Implemented the method for **Split Conformal Prediction**, **CQR**, **UACQR-S**, and **UACQR-P**.
-* Contributed to the technical verification and revision of a general score-distribution and approximate coverage-error bound involving residual imbalance, function-class approximation, finite target-sample uncertainty, and effective sample size.
-* Designed theory-aligned simulations examining coverage, interval efficiency, score-distribution error, imbalance, and weight concentration under varying overlap and score smoothness.
-
-* *Status: First-author manuscript in preparation.*
-
----
-
-## 🎤 [Academic Talks](Talks/index.qmd)
-
-* **Convergence of Random Series and Large Deviations**  
-  Advanced Probability Theory Seminar, Zhejiang University, Fall 2025.  
-  Presented convergence criteria for random series and core ideas in large deviation theory.
-
-* **Robustness of Multiple Knockoff Methods**  
-  Statistics Seminar, Zhejiang University, Fall 2025.  
-  Presented Model-X knockoffs, multiple-run aggregation methods, and their behavior under heavy-tailed distributions.
-
-* **Title of Talk**  
-  Topics in Stochastic Analysis Seminar, Zhejiang University, Fall 2026.
-
----
-
-## 📚 [Academic Garden](https://jhao1122.github.io/Notes/)
-
-I maintain an open collection of course notes, seminar materials, and mathematical derivations covering topics such as stochastic differential equations, real and functional analysis, asymptotic statistics, large deviations, and statistical learning.
-
-Selected notes:
-
-* [Stochastic Differential Equations](https://jhao1122.github.io/Notes/Stochastic-Differential-Equation/0Intro/)
-* [Asymptotic Statistics](https://jhao1122.github.io/Notes/Asymptotic-statistics/0Intro/)
-* [Large Deviations](https://jhao1122.github.io/Notes/Lectures/Course_Lectures/LDP/)
-
----
-
-## 📮 Connection
-I am always open to academic discussions and collaborations. 
-
-* **Email:** [jiahaot1122@gmail.com](mailto:jiahaot1122@gmail.com) / [3230105412@zju.edu.cn](mailto:3230105412@zju.edu.cn) -->
+Email:
+[jiahaot1122@gmail.com](mailto:jiahaot1122@gmail.com) ·
+[3230105412@zju.edu.cn](mailto:3230105412@zju.edu.cn)

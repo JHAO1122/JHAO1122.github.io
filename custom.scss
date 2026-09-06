@@ -1,25 +1,11 @@
-// /*-- scss:defaults --*/
-// // 定义求是蓝核心配色
-// $zju-blue: #003d7c;
-// $link-color: $zju-blue;
-// $navbar-bg: #ffffff;
-// $navbar-fg: $zju-blue;
-
-// /*-- scss:rules --*/
-// // 标题加粗并统一配色
-// h1, h2, h3 {
-//   color: $zju-blue;
-//   font-weight: 700;
-// }
-
-/*-- scss:defaults --*/
-
 /*-- scss:defaults --*/
 
 $zju-blue: #003d7c;
+$primary: $zju-blue;
 $link-color: $zju-blue;
 
 $font-family-sans-serif:
+  "Roboto",
   -apple-system,
   BlinkMacSystemFont,
   "Segoe UI",
@@ -28,6 +14,7 @@ $font-family-sans-serif:
   sans-serif;
 
 $headings-font-family:
+  "Roboto",
   -apple-system,
   BlinkMacSystemFont,
   "Segoe UI",
@@ -35,20 +22,25 @@ $headings-font-family:
   Arial,
   sans-serif;
 
-$headings-font-weight: 600;
-
-$navbar-bg: #ffffff;
-$navbar-fg: #252525;
-$navbar-hl: $zju-blue;
+$headings-font-weight: 500;
+$navbar-padding-y: 0.75rem;
 
 
 /*-- scss:rules --*/
 
-/* 整体宽度和字体 */
+:root {
+  --academic-blue: #003d7c;
+  --academic-text: #252525;
+  --academic-muted: #656565;
+  --academic-border: #e4e4e4;
+}
+
+
+/* 整体排版 */
 
 body {
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.68;
 }
 
 main.content {
@@ -59,162 +51,190 @@ p {
   max-width: 76ch;
 }
 
-
-/* 导航栏 */
-
-.navbar {
-  min-height: 64px;
-  border-bottom: 1px solid #e6e6e6;
-  box-shadow: none;
+a {
+  text-underline-offset: 0.15em;
 }
 
-.navbar-title {
-  color: #202020;
-  font-size: 1.05rem;
-  font-weight: 600;
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* 导航栏：接近 al-folio */
+
+.navbar {
+  min-height: 62px;
+  background-color: rgba(255, 255, 255, 0.97);
+  border-bottom: 1px solid var(--academic-border);
+  box-shadow: none;
 }
 
 .navbar-nav .nav-link {
   color: #444444;
   font-size: 0.94rem;
+  font-weight: 400;
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: $zju-blue;
+  color: var(--academic-blue);
+  text-decoration: none;
 }
 
 
-/* 首屏个人简介 */
+/* 页面标题 */
 
-.quarto-about-broadside {
-  min-height: calc(100vh - 110px);
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 3.5rem 0 5rem;
-  align-items: center;
-  column-gap: 3.8rem;
-}
-
-.quarto-about-broadside .about-image,
-.about-entity .about-image {
-  width: 235px !important;
-  height: 235px !important;
-  object-fit: cover;
-  border-radius: 2px;
-  border: none;
-  box-shadow: none;
-}
-
-.quarto-about-broadside h1 {
-  margin-bottom: 1.25rem;
-  color: #202020;
-  font-size: 2.45rem;
-  font-weight: 650;
+.quarto-title h1.title {
+  margin-top: 1.5rem;
+  margin-bottom: 1.8rem;
+  color: var(--academic-text);
+  font-size: 2.25rem;
+  font-weight: 500;
   letter-spacing: -0.025em;
 }
 
-.quarto-about-broadside p {
-  margin-bottom: 1rem;
-  color: #343434;
+
+/* 首页简介区域 */
+
+.home-hero {
+  min-height: 68vh;
+  padding-top: 0.25rem;
+  display: flow-root;
 }
 
+.profile-photo {
+  float: right;
+  width: 230px;
+  margin: 0 0 1.5rem 2.3rem;
+}
 
-/* Email / GitHub / CV 改成简单文字链接 */
+.profile-photo p,
+.profile-photo figure {
+  margin: 0;
+}
 
-.about-links {
+.profile-photo img {
+  display: block;
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.12);
+}
+
+.home-hero > p:first-of-type {
+  margin-top: 0;
+}
+
+.profile-links {
   margin-top: 1.4rem;
-  gap: 1.2rem;
+  color: var(--academic-muted);
+  font-size: 0.95rem;
 }
 
-.about-link {
-  padding: 0 !important;
-  color: $zju-blue !important;
-  border: none !important;
-  border-radius: 0 !important;
-  font-size: 0.94rem;
-  background: transparent !important;
-}
-
-.about-link:hover {
-  text-decoration: underline;
+.profile-links a {
+  font-weight: 500;
 }
 
 
-/* 普通正文标题 */
+/* 正文标题：不用大面积浙大蓝 */
 
 h2 {
-  margin-top: 3.4rem;
-  margin-bottom: 1.3rem;
-  padding-bottom: 0.45rem;
-  color: #202020;
-  font-size: 1.45rem;
-  font-weight: 600;
-  border-bottom: 1px solid #dedede;
+  margin-top: 3.5rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.4rem;
+  color: var(--academic-text);
+  font-size: 1.35rem;
+  font-weight: 500;
+  border-bottom: 1px solid var(--academic-border);
 }
 
 h3 {
-  margin-top: 2rem;
-  color: #202020;
-  font-size: 1.12rem;
-  font-weight: 600;
+  margin-top: 2.2rem;
+  margin-bottom: 0.7rem;
+  color: var(--academic-text);
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+
+h2 a,
+h3 a {
+  color: inherit;
 }
 
 hr {
   margin: 3rem 0;
-  border-color: #e2e2e2;
+  border-color: var(--academic-border);
+}
+
+
+/* 页脚 */
+
+.nav-footer {
+  margin-top: 4rem;
+  color: var(--academic-muted);
+  font-size: 0.88rem;
+  border-top: 1px solid var(--academic-border);
 }
 
 
 /* 深色模式 */
 
 body.quarto-dark {
-  --bs-body-bg: #181a1c;
-  --bs-body-color: #dddddd;
+  --academic-text: #eeeeee;
+  --academic-muted: #aaaaaa;
+  --academic-border: #3a3a3a;
 }
 
 body.quarto-dark .navbar {
-  background: #181a1c;
-  border-bottom-color: #343434;
+  background-color: rgba(25, 27, 29, 0.97);
 }
 
-body.quarto-dark .navbar-title,
-body.quarto-dark .navbar-nav .nav-link,
-body.quarto-dark h1,
-body.quarto-dark h2,
-body.quarto-dark h3 {
-  color: #eeeeee;
+body.quarto-dark .navbar-nav .nav-link {
+  color: #d5d5d5;
 }
 
-body.quarto-dark .quarto-about-broadside p {
-  color: #d2d2d2;
+body.quarto-dark .navbar-nav .nav-link:hover,
+body.quarto-dark .navbar-nav .nav-link.active {
+  color: #7cb9e8;
 }
 
-body.quarto-dark h2 {
-  border-bottom-color: #3b3b3b;
+body.quarto-dark a {
+  color: #7cb9e8;
 }
 
-body.quarto-dark a,
-body.quarto-dark .about-link {
-  color: #78b7ed !important;
+body.quarto-dark .profile-photo img {
+  border-color: #444444;
 }
 
 
 /* 手机端 */
 
 @media (max-width: 768px) {
-  .quarto-about-broadside {
-    min-height: auto;
-    padding: 2.5rem 0 3.5rem;
-  }
-
-  .quarto-about-broadside .about-image,
-  .about-entity .about-image {
-    width: 190px !important;
-    height: 190px !important;
-  }
-
-  .quarto-about-broadside h1 {
+  .quarto-title h1.title {
+    margin-top: 0.75rem;
     font-size: 2rem;
+  }
+
+  .home-hero {
+    min-height: auto;
+    padding-bottom: 2.5rem;
+  }
+
+  .profile-photo {
+    float: none;
+    width: 190px;
+    margin: 0 auto 2rem;
+  }
+
+  .profile-photo img {
+    width: 190px;
+    height: 190px;
+  }
+
+  h2 {
+    margin-top: 2.8rem;
   }
 }
